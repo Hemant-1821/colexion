@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="316.462" height="82.072" viewBox="0 0 316.462 82.072">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.463" y1="0.5" x2="1.583" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ce18c5"/>
+      <stop offset="0.053" stop-color="#b414b6"/>
+      <stop offset="0.154" stop-color="#890e9d"/>
+      <stop offset="0.252" stop-color="#670989"/>
+      <stop offset="0.344" stop-color="#4e057b"/>
+      <stop offset="0.429" stop-color="#400372"/>
+      <stop offset="0.5" stop-color="#3b0370"/>
+      <stop offset="0.568" stop-color="#390672"/>
+      <stop offset="0.634" stop-color="#361279"/>
+      <stop offset="0.701" stop-color="#312686"/>
+      <stop offset="0.767" stop-color="#2a4298"/>
+      <stop offset="0.833" stop-color="#2166ae"/>
+      <stop offset="0.899" stop-color="#1592ca"/>
+      <stop offset="0.964" stop-color="#08c5ea"/>
+      <stop offset="1" stop-color="#00e5ff"/>
+    </linearGradient>
+  </defs>
+  <g id="name_plate" transform="translate(191.668 -429.792)">
+    <g id="Group_202" data-name="Group 202" transform="translate(-191.668 429.791)">
+      <path id="Path_297" data-name="Path 297" d="M-191.668,472.966H124.794L84.951,429.791H-151.824L-182.6,463.142" transform="translate(191.668 -429.791)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_203" data-name="Group 203" transform="translate(-191.668 472.966)">
+      <path id="Path_298" data-name="Path 298" d="M-191.668,444.791H124.794l-39.843,38.9H-151.824L-182.6,453.642" transform="translate(191.668 -444.791)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

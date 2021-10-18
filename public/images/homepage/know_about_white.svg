@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="368.167" height="372.196" viewBox="0 0 368.167 372.196">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.01" y1="0.5" x2="1.007" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ce18c5"/>
+      <stop offset="0.053" stop-color="#b414b6"/>
+      <stop offset="0.154" stop-color="#890e9d"/>
+      <stop offset="0.252" stop-color="#670989"/>
+      <stop offset="0.344" stop-color="#4e057b"/>
+      <stop offset="0.429" stop-color="#400372"/>
+      <stop offset="0.5" stop-color="#3b0370"/>
+      <stop offset="0.568" stop-color="#390672"/>
+      <stop offset="0.634" stop-color="#361279"/>
+      <stop offset="0.701" stop-color="#312686"/>
+      <stop offset="0.767" stop-color="#2a4298"/>
+      <stop offset="0.833" stop-color="#2166ae"/>
+      <stop offset="0.899" stop-color="#1592ca"/>
+      <stop offset="0.964" stop-color="#08c5ea"/>
+      <stop offset="1" stop-color="#00e5ff"/>
+    </linearGradient>
+  </defs>
+  <g id="know_about_white" transform="translate(-895.755 -315.07)">
+    <g id="Group_895" data-name="Group 895" transform="translate(843.6 265.56)">
+      <g id="Group_894" data-name="Group 894" transform="translate(52.155 49.51)" opacity="0.5">
+        <g id="Group_893" data-name="Group 893">
+          <path id="Path_591" data-name="Path 591" d="M1230.528,321.521V293.444l-9.509-9.73H1107.076l-9.509,9.73H889.891l-27.167,27.8v17.077l4.754,4.865V639.768l-4.754,4.865V655.91h73.151l9.509-9.729h275.635l9.509-9.729v-8.617l-4.754-4.865V326.386Z" transform="translate(-862.724 -283.714)" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_896" data-name="Group 896" transform="translate(903.937 323.252)">
+      <path id="Path_592" data-name="Path 592" d="M865.724,642.548v-323.1l23.005-23h212.5l9.729-9.729h109.816l4.935,4.935V627.881l-4.935,4.935H938.732L929,642.548Z" transform="translate(-865.724 -286.715)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

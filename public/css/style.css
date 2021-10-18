@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@font-face {
+    font-family:"FTYOverKillMachinedNC";
+    src:url("../fonts/FTYOverKill_Machined_NC.eot?") format("eot"),url("../fonts/FTYOverKill_Machined_NC.woff") format("woff"),url("../fonts/FTYOverKill_Machined_NC.ttf") format("truetype"),url("../fonts/FTYOverKill_Machined_NC.svg#FTYOverKillMachinedNC") format("svg");font-weight:normal;font-style:normal;
+}
+input,select, button{
+    outline: none;
+    box-shadow: none;
+}
+a, a:hover{
+    text-decoration: none;
+    transition: all 500ms ease;
+}
+body{font-family: 'Poppins', sans-serif; margin: 0; padding: 0;}
+
+#myNav {
+    background: #000413;
+}
+
+#myNav ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: right;
+    padding: 0 15px;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+.navbar-brand img {
+    max-width: 180px;
+}
+#myNav ul li a span {
+    display: block;
+    color: #2de5fb;
+    font-size: 10px;
+}
+
+#myNav ul {
+    align-items: center;
+}
+.customBtn {
+    background: linear-gradient(to right, #21f5fc 0%, #b241f2 99%);
+    padding: 10px 25px !important;
+    font-weight: 600 !important;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.homeBanner{
+    background: url(../images/homepage/banner.png) 0 0 no-repeat;
+    background-size: cover;
+    padding: 100px 0 50px;
+}
+.bannerContent h3 {
+    color: #2de5fb;
+    font-size: 24px;
+}
+
+.bannerContent h1 {
+    font-family: "FTYOverKillMachinedNC";
+    color: #fff;
+    font-size: 70px;
+    margin: 20px 0 0;
+}
+
+.bannerContent h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0 30px;
+}
+
+.counterNum ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.counterNum ul li {
+    margin-right: 20px;
+}
+
+.counterNum ul li h4 {
+    font-size: 38px;
+    color: #fff;
+    font-family: "FTYOverKillMachinedNC";
+    margin: 0;
+}
+
+.counterNum ul li h5 {
+    color: #fff;
+    font-size: 25px;
+    opacity: 0.8;
+}
+
+.counterNum {
+    margin-top: 40px;
+}
+
+.updatesWrp {
+    padding: 25px 50px;
+    border: solid 3px #4f52ff;
+    background-color: #0d0931;
+    margin-top: 150px;
+}
+
+.listInline {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.updatesWrp li {
+    min-width: 250px;
+}
+
+.updatesWrp li h4 {
+    font-size: 28px;
+    color: #fff;
+}
+
+.updatesWrp li h3 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    margin: 0 0 0 20px;
+}
+
+.updatesWrp li:last-child {
+    padding: 10px 0 10px 20px;
+    border-left: solid 3px #7988f6;
+    align-items: center;
+}
+
+.carousel .slide iframe {
+    margin: 0 !important;
+    width: 100%  !important;
+    display: block  !important;
+}
+
+.carousel.carousel-slider .control-arrow, .slick-arrow {
+    background: url(../images/homepage/backward_arrow.svg) 0 0 no-repeat !important;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    left: -70px !important;
+    width: 50px !important;
+    height: 50px !important;
+    background-size: cover !important;
+    opacity: 1 !important;
+    display: block !important;
+}
+.carousel.carousel-slider .control-arrow::before, .slick-arrow:before {
+    display: none !important;
+}
+.carousel.carousel-slider .control-arrow.control-next, .slick-arrow.slick-next{
+    background: url(../images/homepage/forward_arrow.svg) 0 0 no-repeat !important;
+    left: auto !important;
+    right: -70px !important;
+    background-size: cover !important;
+} 
+
+.carousel.carousel-slider{
+    overflow: visible !important;
+}
+.customSec{
+    padding: 100px 0;;
+}
+.dark{
+    background: #000;
+    margin-top: -2px;
+}
+
+.sectionHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 40px;
+}
+
+.sectionHeading h2 {
+    font-size: 44px;
+    color: #fff;
+    font-family: "FTYOverKillMachinedNC";
+    margin: 0;
+}
+
+.sectionHeading h3 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.customBtn2 {
+    display: block;
+    padding: 8px 24px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+    transition: all 500ms ease;
+}
+.customBtn2 i{
+    background: linear-gradient(to right, #21f5fc 0%, #b241f2 99%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
+.customBtn2:hover{
+    color: #fff;
+} 
+.customBtn2:after {content: "";position: absolute;left: 0;top: 0;width: 30px;background: linear-gradient(to right, #21f5fc 0%, #b241f2 99%);height: 100%;z-index: -1;transition: all 500ms ease;}
+.customBtn2:hover:after {
+    width: 100%;
+    transition: all 500ms ease;
+}
+.slideImg{
+    background: url(../images/player_bg.svg) 0 0 no-repeat;
+    background-size: 100% 270px;
+    background-position: left bottom;
+}
+.slideImg img {
+    max-width: 245px;
+    display: block;
+    margin: 0 auto;
+}
+.slideWrp {
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.slideContent {
+    position: absolute;
+    left: 40px;
+    bottom: -6px;
+    width: calc(100% - 80px);
+    background: url(../images/name_plate.svg) 0 0 no-repeat;
+    text-align: center;
+    background-size: contain;
+    height: 80px;
+    padding: 15px 0 0;
+}
+
+.slideContent h3 {
+    margin: 0;
+    font-size: 24px;
+    font-family: "FTYOverKillMachinedNC";
+    color: #fff;
+    line-height: 1.1;
+}
+
+.slideContent p {
+    margin: 0;
+    font-size: 14px;
+    color: #fff;
+}
+.museum, .aboutUs{
+    padding: 100px 0;
+    background: url(../images/homepage/digital_bg.png) 0 0 no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.aboutUs{
+    background: url(../images/homepage/about_bg.png) 0 0 no-repeat;
+    background-attachment: fixed;
+}
+.videoFrame{
+    background: url(../images/homepage/videoframe.svg) 0 0 no-repeat;
+    background-size: cover;
+    padding: 15px 15px 0;
+}
+.videoFrame1{
+    background: url(../images/homepage/videoframe1.svg) 0 0 no-repeat;
+    background-size: cover;
+    padding: 15px 15px 0;
+}
+.museum h3, .aboutUs h3{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.strip {
+    margin: 10px 0 8px;
+    display: inline-block;
+    padding: 4px 15px;
+    background: linear-gradient(to right, #21f5fc 0%, #b241f2 99%);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.2;
+}
+.bx img {
+    max-width: 100px;
+}
+
+.bx h3 {
+    font-size: 30px;
+    color: #fff;
+    font-family: "FTYOverKillMachinedNC";
+    margin: 30px 0 15px;
+}
+
+.bx p {
+    font-size: 16px;
+    color: #fff;
+}
+.combo{
+    padding: 150px 0;
+    background: url(../images/homepage/combo_bg.png) 0 0 no-repeat #000;
+}
+.comboBx img {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.combo .slick-arrow {
+    display: none !important;
+}
+
+.combo .slick-center.slick-current {
+    transform: scale(1.2);
+}
+.pressList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pressList img {
+    max-width: 180px;
+}
+
+
+
+
+
