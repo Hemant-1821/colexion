@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Home from "./Components/Home/Home";
 import Nav from "./Components/Nav";
 import Footer from "./Components/Footer";
+import PackDetails from "./Components/PackDetails";
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
         <Nav />
         <Switch>
           <Route path="/" exact component={Home} />
+          <Route path="/details/:id" exact component={PackDetails} />
         </Switch>
         <Footer />
       </div>
