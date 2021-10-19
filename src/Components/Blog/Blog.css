@@ -1,0 +1,485 @@
+.blog_page{
+    background-color: black;
+}
+
+.right-col{
+    margin-left: -30px;
+}
+
+.section{
+    padding-top: 6rem;
+}
+
+.Wallets {
+    font-family: Raleway;
+    font-size: 23px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #00caf9;
+  }
+
+  .Which-Indian-celebrities-are-showing-interest-in-NFT {
+    font-family: FTYOverKillMachinedNC;
+    font-size: 62px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.9;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  }
+
+  .which-Indian-content {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  }
+
+  .Read-Article {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: 3.28; */
+    letter-spacing: normal;
+    text-align: left;
+    color: #00caf9;
+  }
+
+  .arrow {
+    background: #00caf9;
+    height: 3px;
+    width: 22px;
+    margin: 0 auto;
+    position: relative;
+    cursor: pointer;
+    top: -19px;
+    left: -92px;
+  }
+  .arrow:before, .arrow:after {
+    content: "";
+    background: #00caf9;
+    position: absolute;
+    height: 2px;
+    width: 13px;
+  }
+  .arrow:before {
+    right: -3px;
+    bottom: -4px;
+    transform: rotate(-45deg);
+  }
+  .arrow:after {
+    right: -3px;
+    top: -4px;
+    transform: rotate(45deg);
+  }  
+
+  .grid-arrow {
+    background: #00caf9;
+    height: 3px;
+    width: 22px;
+    margin: 0 auto;
+    position: relative;
+    cursor: pointer;
+    top: -18px;
+    left: -23px;
+  }
+  .grid-arrow:before, .grid-arrow:after {
+    content: "";
+    background: #00caf9;
+    position: absolute;
+    height: 2px;
+    width: 13px;
+  }
+  .grid-arrow:before {
+    right: -3px;
+    bottom: -4px;
+    transform: rotate(-45deg);
+  }
+  .grid-arrow:after {
+    right: -3px;
+    top: -4px;
+    transform: rotate(45deg);
+  }  
+
+  .grid-Wallets{
+      font-family: Raleway;
+      font-size: 20px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.17;
+      letter-spacing: normal;
+      text-align: left;
+      color: #00caf9;
+      margin-top: 10px;
+  }
+
+  .How-Artists-are-gaining-exposure-from-NFTs {
+    font-family: FTYOverKillMachinedNC;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  }
+
+  .grid-Read-Article {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: 3.28; */
+    letter-spacing: normal;
+    text-align: left;
+    color: #00caf9;
+  }
+
+  .blog-grid{
+    margin-top: 6rem;
+  }
+
+  /* Blog Detail Page CSS */
+  .blog_detail{
+      background-color: #fff;
+  }
+
+  .Which-Indian-Detail {
+    width: 567px;
+    height: 246px;
+    margin: 21px 356px 52.2px 3.1px;
+    font-family: FTYOverKillMachinedNC;
+    font-size: 62px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.9;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+  }
+
+  .By-Rohan-Hada {
+    opacity: 0.8;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+  }
+
+  .September-16-2022 {
+    opacity: 0.53;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+  }
+
+  .Last-update-on-September-16-2022 {
+    opacity: 0.53;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+  }
+
+  .Line-21 {
+    height: 0;
+    opacity: 0.17;
+    border: solid 1px #8b9dbf;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+
+  .How-Artists-are-gaining-exposure-from-NFTs {
+    font-family: Poppins;
+    font-size: 29px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+  }
+
+  .If-you-are-an-Artist{
+    margin-top: 3rem;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.22px;
+    text-align: left;
+    color: #000;
+  }
+
+  .Editor-Wallets {
+    opacity: 0.7;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+  }
+
+  .What-is-Ripple-The-Journey-from-a-Money-Transfer-Platform {
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+  }
+
+  .Line-16 {
+    height: 0;
+    opacity: 0.17;
+    border: solid 1px #8b9dbf;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .Will-NFT-culture-survive-or-will-the-bubble-burst {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+  }
+
+  .NFTs-is-Booming {
+    font-family: Poppins;
+    font-size: 29px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+  }
+
+  .btc-img{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .Rectangle-284 {
+    width: 24px;
+    height: 24px;
+    background-image: linear-gradient(160deg, #21f5fc -27%, #b241f2 87%);
+  }
+
+  .Engaging-with-NFT-Community {
+    margin-left: 10px;
+    font-family: Poppins;
+    font-size: 29px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+  }
+
+  .point-head{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  .For-an-Artist {
+    margin-left: 39px;
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: 0.22px;
+    text-align: left;
+    color: #000;
+  }
+
+  .rec-box{
+      position: relative;
+  }
+
+  .Rectangle-283 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 12rem;
+    width: 46rem;
+    padding: 48px 67.2px 46.7px 56.5px;
+    opacity: 0.1;
+    background-image: linear-gradient(to bottom, #21f5fc, #b241f2);
+  }
+
+  .To-catch-peoples {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: 0.24px;
+    text-align: left;
+    color: #000;
+    position: absolute;
+    top: 23%;
+    margin-left: 68px;
+  }
+
+  .If-connecting {
+    margin-top: 4rem;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: 0.22px;
+    text-align: left;
+    color: #000;
+  }
+
+  .related-container{
+    margin-bottom: 6rem;
+  }
+
+  .Related-Articles {
+    font-family: Poppins;
+    font-size: 29px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #00121f;
+  }
+
+  .Rectangle-286 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    width: 11.6px;
+    height: 11.6px;
+    background-image: linear-gradient(157deg, #21f5fc -58%, #b241f2 85%);
+  }
+
+  .Indias-Regulatory {
+    width: 44rem;
+    margin-top: 1.5rem;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: 0.22px;
+    text-align: left;
+    color: #333;
+  }
+
+  .arrow-detail {
+    margin: 25px;
+    display: inline-block;
+    height: 13px;
+    position: relative;
+    width: 12px;
+  }
+  .arrow-detail::after {
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-right-style: solid;
+    border-right-width: 4px;
+    content: "";
+    display: inline-block;
+    height: 13px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 13px;
+  }
+  .arrow-detail.arrow-bar-detail::before {
+    bottom: 1px;
+    content: "";
+    height: 20px;
+    position: absolute;
+    right: 0;
+    transform-origin: bottom;
+    width: 2px;
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  .arrow-detail.is-left {
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+  .arrow-detail::after,
+  .arrow-detail .arrow-detail::after {
+    border-color: black;
+  }
+  .arrow-detail::before,
+  .arrow-detail .arrow-detail::before {
+    background-color: black;
+  }
+
+  .back-container{
+    cursor: pointer;
+  }
+
+  .back{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    margin-top: 13px;
+  }
