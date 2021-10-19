@@ -333,6 +333,195 @@ body{font-family: 'Poppins', sans-serif; margin: 0; padding: 0;}
 .pressList img {
     max-width: 180px;
 }
+.faqSlide {
+    padding: 0 15px;
+}
+.faqSlideContent {
+    padding: 60px 40px 50px;
+    background: url(../images/homepage/know_about_nft.png) 0 0 no-repeat;
+    background-size: cover;
+    min-height: 340px;
+}
+
+.faqSlideContent h3 {
+    font-size: 26px;
+    color: #fff;
+    font-family: "FTYOverKillMachinedNC";
+    margin: 0 0 10px;
+    min-height: 65px;
+}
+
+.faqSlideContent p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.88;
+    margin: 0;
+}
+
+.partnersList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.partnersList img {
+    max-width: 180px;
+    margin: 5px;
+}
+
+.partnersBx {
+    padding: 50px;
+    border: solid 3px #4f52ff;
+    background-color: #0d0931;
+    margin-top: 0;
+}
+
+.shopCategoryList {
+    display: flex;
+    justify-content: center;
+}
+
+.shopCategoryBx {
+    background: url(../images/homepage/shop_by_category.svg) 0 0 no-repeat;
+    min-width: 200px;
+    height: 205px;
+    background-size: cover;
+    text-align: center;
+    padding: 26px 0 0 0;
+}
+
+.shopCategoryBx img {
+    height: 110px;
+    max-width: 100px;
+    object-fit: contain;
+}
+
+.shopCategoryBx h4 {
+    font-size: 19px;
+    color: #fff;
+    font-family: "FTYOverKillMachinedNC";
+    margin: 15px 0 0;
+}
+
+.subscribeBx {
+    padding: 100px;
+    background: #101113;
+}
+
+.subscribeForm {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribeForm input {
+    width: 400px;
+    height: 60px;
+    padding: 0 25px;
+    background: transparent;
+    border: solid 1px #4cc0f9;
+    color: #fff;
+}
+
+.subscribeForm button {
+    height: 60px;
+    padding: 0 50px;
+    background: linear-gradient(to right, #21f5fc 0%, #b241f2 99%);
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+}
+.mainFooter{
+    background: url(../images/homepage/footer_bg.png) 0 0 no-repeat;
+    padding: 50px 0 0px;
+    background-size: cover;
+}
+.footerTop {
+    text-align: center;
+    padding: 0 150px;
+}
+
+.footerTop p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.88;
+    margin: 20px 0;
+}
+
+.list-inline {
+    display: flex;
+    margin: 0 -5px;
+}
+
+.list-inline li {
+    margin: 0 5px;
+}
+.footerTop .list-inline {
+    justify-content: center;
+}
+
+.footerTop .list-inline img {
+    height: 30px;
+}
+
+.footerTop .list-inline li {
+    margin: 0 10px;
+}
+
+.footerBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 30px 0;
+    border-top: solid 1px #46c2f459;
+    border-bottom: solid 1px #46c2f459;
+}
+
+.footerBottom .list-inline li {
+    margin: 0 10px;
+}
+
+.footerBottom .list-inline li a {
+    font-size: 15px;
+    opacity: 0.5;
+    color: #fff;
+}
+
+.footerBottom .list-inline.footerDetails  li a {
+    opacity: 1;
+}
+
+.footerBottom .list-inline.footerDetails li a img {
+    margin-right: 10px;
+}
+
+.footerBottom .list-inline.footerDetails li {
+    margin: 0 15px;
+}
+
+.footerBottom .list-inline.footerDetails {
+    margin: 0 -15px;
+    align-items: center;
+}
+
+.lineBtn {
+    display: inline-block;
+    padding: 15px 35px;
+    border: solid 1px #46c2f4;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.copyRIght {
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    opacity: 0.4;
+    font-size: 14px;
+}
+
+
 
 
 
