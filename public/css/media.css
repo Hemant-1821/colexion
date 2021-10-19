@@ -1,0 +1,14 @@
+@media only screen and (max-width:991px){
+    .homeVideo, .scroller .slick-slider{
+        padding: 0 70px;
+    }
+    .slick-prev{
+        left: 0 !important;
+    }
+    .slick-arrow.slick-next{
+        right: 0 !important;
+    }
+    .sectionHeading, .pressList {
+        flex-wrap: wrap;
+    }
+}

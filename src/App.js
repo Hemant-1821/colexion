@@ -6,6 +6,7 @@ import Blog from "./Components/Blog/Blog";
 import Nav from "./Components/Nav";
 import Footer from "./Components/Footer";
 import BlogDetail from "./Components/Blog/BlogDetail";
+import PackDetails from "./Components/PackDetails";
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/" exact component={Home} />
           <Route path="/blog" exact component={Blog} />
           <Route path="/blog-detail" exact component={BlogDetail} />
+          <Route path="/details/:id" exact component={PackDetails} />
         </Switch>
         <Footer />
       </div>

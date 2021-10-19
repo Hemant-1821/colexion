@@ -261,7 +261,7 @@ body{font-family: 'Poppins', sans-serif; margin: 0; padding: 0;}
 .museum, .aboutUs{
     padding: 100px 0;
     background: url(../images/homepage/digital_bg.png) 0 0 no-repeat;
-    background-size: cover;
+    background-size: cover !important;
     background-attachment: fixed;
 }
 .aboutUs{
@@ -293,6 +293,9 @@ body{font-family: 'Poppins', sans-serif; margin: 0; padding: 0;}
     font-weight: 600;
     color: #fff;
     line-height: 1.2;
+}
+.bx {
+    margin-bottom: 50px;
 }
 .bx img {
     max-width: 100px;
@@ -333,8 +336,329 @@ body{font-family: 'Poppins', sans-serif; margin: 0; padding: 0;}
 .pressList img {
     max-width: 180px;
 }
+.faqSlide {
+    padding: 0 15px;
+}
+.faqSlideContent {
+    padding: 60px 40px 50px;
+    background: url(../images/homepage/know_about_nft.png) 0 0 no-repeat;
+    background-size: cover;
+    min-height: 340px;
+}
 
+.faqSlideContent h3 {
+    font-size: 26px;
+    color: #fff;
+    font-family: "FTYOverKillMachinedNC";
+    margin: 0 0 10px;
+    min-height: 65px;
+}
 
+.faqSlideContent p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.88;
+    margin: 0;
+}
+
+.partnersList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.partnersList img {
+    max-width: 180px;
+    margin: 5px;
+}
+
+.partnersBx {
+    padding: 50px;
+    border: solid 3px #4f52ff;
+    background-color: #0d0931;
+    margin-top: 0;
+}
+
+.shopCategoryList {
+    display: flex;
+    justify-content: center;
+}
+
+.shopCategoryBx {
+    background: url(../images/homepage/shop_by_category.svg) 0 0 no-repeat;
+    min-width: 200px;
+    height: 205px;
+    background-size: cover;
+    text-align: center;
+    padding: 26px 0 0 0;
+}
+
+.shopCategoryBx img {
+    height: 110px;
+    max-width: 100px;
+    object-fit: contain;
+}
+
+.shopCategoryBx h4 {
+    font-size: 19px;
+    color: #fff;
+    font-family: "FTYOverKillMachinedNC";
+    margin: 15px 0 0;
+}
+
+.subscribeBx {
+    padding: 100px;
+    background: #101113;
+}
+
+.subscribeForm {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribeForm input {
+    width: 400px;
+    height: 60px;
+    padding: 0 25px;
+    background: transparent;
+    border: solid 1px #4cc0f9;
+    color: #fff;
+}
+
+.subscribeForm button {
+    height: 60px;
+    padding: 0 50px;
+    background: linear-gradient(to right, #21f5fc 0%, #b241f2 99%);
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+}
+.mainFooter{
+    background: url(../images/homepage/footer_bg.png) 0 0 no-repeat;
+    padding: 50px 0 0px;
+    background-size: cover;
+}
+.footerTop {
+    text-align: center;
+    padding: 0 150px;
+}
+
+.footerTop p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.88;
+    margin: 20px 0;
+}
+
+.list-inline {
+    display: flex;
+    margin: 0 -5px;
+}
+
+.list-inline li {
+    margin: 0 5px;
+}
+.footerTop .list-inline {
+    justify-content: center;
+}
+
+.footerTop .list-inline img {
+    height: 30px;
+}
+
+.footerTop .list-inline li {
+    margin: 0 10px;
+}
+
+.footerBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 30px 0;
+    border-top: solid 1px #46c2f459;
+    border-bottom: solid 1px #46c2f459;
+}
+
+.footerBottom .list-inline li {
+    margin: 0 10px;
+}
+
+.footerBottom .list-inline li a {
+    font-size: 15px;
+    opacity: 0.5;
+    color: #fff;
+}
+
+.footerBottom .list-inline.footerDetails  li a {
+    opacity: 1;
+}
+
+.footerBottom .list-inline.footerDetails li a img {
+    margin-right: 10px;
+}
+
+.footerBottom .list-inline.footerDetails li {
+    margin: 0 15px;
+}
+
+.footerBottom .list-inline.footerDetails {
+    margin: 0 -15px;
+    align-items: center;
+}
+
+.lineBtn {
+    display: inline-block;
+    padding: 15px 35px;
+    border: solid 1px #46c2f4;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.copyRIght {
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    opacity: 0.4;
+    font-size: 14px;
+}
+
+.productDetailsWrp {
+    display: flex;
+}
+
+.productDetailsCard {
+    width: 450px;
+    min-width: 450px;
+}
+
+.productDetailsCardImg {
+    margin-top: 20px;
+    background: url(../images/pdBg.png) 0 0 no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 30px 10px;
+}
+
+.countryFlag img {
+    width: 50px;
+}
+
+.countryFlag {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.playerImg {
+    display: flex;
+    justify-content: center;
+}
+
+.playerImg img {
+    height: 350px;
+    max-width: 100%;
+}
+
+.playerName {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.playerName i {
+    display: block;
+    font-style: normal;
+    font-size: 11px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.playerName span {
+    font-size: 26px;
+    color: #fff;
+    font-family: "FTYOverKillMachinedNC";
+    text-align: center;
+    margin-right: 5px;
+}
+
+.playerStats {
+    margin: 30px 0 0;
+    background: #36298891;
+    padding: 20px 20px 10px;
+}
+
+.playerStats h5, .playerStatsList li {
+    display: block;
+    font-style: normal;
+    font-size: 11px;
+    color: #fff;
+}
+
+.playerStatsList li span {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.playerStatsList li:first-child {
+    max-width: 64px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.playerStatsList li {
+    margin: 0 15px;
+    text-align: center;
+}
+
+.playerStatsList {
+    margin: 0 -15px 10px;
+}
+
+.productDetailsCard .d-block a {
+    color: #fff;
+}
+.productDetailsContent {
+    padding-top: 40px;
+    margin-left: 50px;
+}
+
+.productDetailsContent h2 {
+    margin: 0 0 10px;
+    font-size: 46px;
+    color: #fff;
+    font-family: "FTYOverKillMachinedNC";
+}
+
+.productDetailsContent p {
+    color: #fff;
+}
+
+.productDetailsContent h4 {
+    font-size: 20px;
+    color: #fff;
+    margin: 0 0 20px;
+}
+
+.productDetailsContent ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.productDetailsContent ul li {
+    position: relative;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #fff;
+    padding-left: 30px;
+}
+
+.productDetailsContent ul li:before {content: "";position: absolute;left: 0;top: 5px;width: 14px;height: 15px;background: #000;border: solid 1px #2aebfc;}
 
 
 

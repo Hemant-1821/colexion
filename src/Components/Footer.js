@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -20,7 +21,7 @@ const Footer = () => {
                     </div>
                 </div>
             </section>
-            <footer>
+            <footer className="mainFooter">
                 <div className="container">
                     <div className="footerTop">
                         <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="" />
@@ -28,42 +29,60 @@ const Footer = () => {
                         <ul className="list-inline">
                             <li>
                                 <a href="/">
-                                    <img src={process.env.PUBLIC_URL + '/images/homepage/metro-facebook.svg'} alt="" />
+                                    <img src={process.env.PUBLIC_URL + '/images/homepage/social/metro-facebook.svg'} alt="" />
                                 </a>
                             </li>
                             <li>
                                 <a href="/">
-                                    <img src={process.env.PUBLIC_URL + '/images/homepage/awesome-instagram.svg'} alt="" />
+                                    <img src={process.env.PUBLIC_URL + '/images/homepage/social/awesome-instagram.svg'} alt="" />
                                 </a>
                             </li>
                             <li>
                                 <a href="/">
-                                    <img src={process.env.PUBLIC_URL + '/images/homepage/awesome-twitter.svg'} alt="" />
+                                    <img src={process.env.PUBLIC_URL + '/images/homepage/social/awesome-twitter.svg'} alt="" />
                                 </a>
                             </li>
                             <li>
                                 <a href="/">
-                                    <img src={process.env.PUBLIC_URL + '/images/homepage/awesome-pinterest.svg'} alt="" />
+                                    <img src={process.env.PUBLIC_URL + '/images/homepage/social/awesome-pinterest.svg'} alt="" />
                                 </a>
                             </li>
                             <li>
                                 <a href="/">
-                                    <img src={process.env.PUBLIC_URL + '/images/homepage/awesome-youtube.svg'} alt="" />
+                                    <img src={process.env.PUBLIC_URL + '/images/homepage/social/awesome-youtube.svg'} alt="" />
                                 </a>
                             </li>
                             <li>
                                 <a href="/">
-                                    <img src={process.env.PUBLIC_URL + '/images/homepage/awesome-linkedin.svg'} alt="" />
+                                    <img src={process.env.PUBLIC_URL + '/images/homepage/social/awesome-linkedin.svg'} alt="" />
                                 </a>
                             </li>
                             <li>
                                 <a href="/">
-                                    <img src={process.env.PUBLIC_URL + '/images/homepage/simple-discord.svg'} alt="" />
+                                    <img src={process.env.PUBLIC_URL + '/images/homepage/social/simple-discord.svg'} alt="" />
                                 </a>
                             </li>
                         </ul>
                     </div>
-                    <div className=""></div>
+                    <div className="footerBottom">
+                        <ul className="list-inline">
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/">Terms of Use</Link></li>
+                            <li><Link to="/">FAQ</Link></li>
+                            <li><Link to="/">Blog</Link></li>
+                            <li><Link to="/">Help Center</Link></li>
+                        </ul>
+                        <ul className="list-inline footerDetails">
+                            <li>
+                                <Link to="/"><img src={process.env.PUBLIC_URL + '/images/homepage/social/material-location-on.svg'} alt="" /><span>Colexion, World Trade Company U.A.E</span></Link>
+                            </li>
+                            <li>
+                                <Link to="/"><img src={process.env.PUBLIC_URL + '/images/homepage/social/material-email.svg'} alt="" /><span>info@colexion.io</span></Link>
+                            </li>
+                            <li><Link to="/" className="lineBtn">join community</Link></li>
+                        </ul>
+                    </div>
+                    <div className="copyRIght">© 2021 Colexion. All Rights Reserved.</div>
                 </div>
             </footer>
         </React.Fragment>
