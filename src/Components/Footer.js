@@ -68,8 +68,8 @@ const Footer = () => {
                         <ul className="list-inline">
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/">Terms of Use</Link></li>
-                            <li><Link to="/">FAQ</Link></li>
-                            <li><Link to="/">Blog</Link></li>
+                            <li><Link to="/faq">FAQ</Link></li>
+                            <li><Link to="/blog">Blog</Link></li>
                             <li><Link to="/">Help Center</Link></li>
                         </ul>
                         <ul className="list-inline footerDetails">
