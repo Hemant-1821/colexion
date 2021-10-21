@@ -32,8 +32,8 @@ const FaqScroll = () => {
                 <div className="scroller">
                     <div className="sectionHeading justify-content-center text-center">
                         <div className="d-block">
-                            <h2>Know all about NFTs</h2>
-                            <h3>Bring home the best-selling NFTs of well-known celebrities and world famous sport stars</h3>
+                            <h2>KNOW ALL ABOUT NFTS</h2>
+                            <h3>Become familiar with NFTs from scratch </h3>
                         </div>
                     </div>
                     <Slider {...settings}>

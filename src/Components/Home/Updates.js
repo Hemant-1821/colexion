@@ -13,7 +13,7 @@ const Updates = () => {
                         </li>
                         <li className="d-flex">
                             <img src={process.env.PUBLIC_URL + '/images/homepage/mfn-logo.png'} alt="" />
-                            <h3>Colexion jersey launch exclusively at Matrix Fight Night on 24 September 2021 at Palazzo Versace Hotel, Dubai. </h3>
+                            <h3>On 24th September 2021, Colexion has officially launched  it’s ‘Exclusive Jersey’ at Matrix Fight Night Club in the Palazzo Versace Hotel, Dubai. </h3>
                         </li>
                     </ul>
                 </div>

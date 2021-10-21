@@ -11,8 +11,8 @@ const HomeBanner = () => {
                         <div className="col-lg-7 col-12">
                             <div className="bannerContent">
                                 <h3>INFINITY BEGINS HERE</h3>
-                                <h1>Own Best Prime<br/>NFTs Collections</h1>
-                                <h2>Collect and trade officially licensed<br/>digital collectibles</h2>
+                                <h1>OWN PRIME NFTs COLLECTION</h1>
+                                <h2>Buy, Collect and Trade officially licensed digital collectibles.</h2>
                                 <Link to="/" className="customBtn">Join waitlist</Link>
                                 <div className="counterNum">
                                     <ul>

@@ -20,7 +20,7 @@ const Combo = () => {
                     <div className="sectionHeading justify-content-center text-center">
                         <div className="d-block">
                             <h2>EXCLUSIVE COMBO PACKS</h2>
-                            <h3>Bring home the best-selling NFTs of well-known celebrities and<br/>world famous sport stars</h3>
+                            <h3>Get your hands on the exclusive NFT cards with multiple benefits.</h3>
                         </div>
                     </div>
                     <Slider {...settings}>

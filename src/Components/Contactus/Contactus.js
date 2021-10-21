@@ -38,7 +38,7 @@ const Contactus = () => {
                     <div className="get-in-touch">GET IN TOUCH</div>
                     <div className="underline"></div>
                     <div className="row email-container">
-                        <img src={process.env.PUBLIC_URL + '/images/mail-icon.png'} className="Icon-material-mail"></img>
+                        <img src={process.env.PUBLIC_URL + '/images/mail-icon.png'} alt="" className="Icon-material-mail"></img>
                         <div className="colexion-email">info@colexion.io</div>
                     </div>
                 </div>

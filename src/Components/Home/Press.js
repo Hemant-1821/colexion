@@ -7,8 +7,8 @@ const Press = () => {
                 <div className="scroller">
                     <div className="sectionHeading justify-content-center text-center">
                         <div className="d-block">
-                            <h2>Press release</h2>
-                            <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h3>
+                            <h2>PRESS RELEASE</h2>
+                            <h3>Colexion is making headlines around the world.</h3>
                         </div>
                     </div>
                 </div>
