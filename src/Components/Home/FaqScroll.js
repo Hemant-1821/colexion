@@ -27,7 +27,7 @@ const FaqScroll = () => {
           ]
     };
     return (
-        <section className="dark customSec">
+        <section className="dark customSec faqScroll">
             <div className="container">
                 <div className="scroller">
                     <div className="sectionHeading justify-content-center text-center">

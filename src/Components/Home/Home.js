@@ -2,6 +2,7 @@ import React from 'react'
 import About from './About';
 import HomeBanner from './Banner';
 import Combo from './Combo';
+import Entertainment from './Entertainment';
 import FaqScroll from './FaqScroll';
 import Featured from './Featured';
 import Museum from './Museum';
@@ -18,7 +19,7 @@ const Home = () => {
             <Video />
             <Featured />
             <Museum />
-            <Featured />
+            <Entertainment />
             <About />
             <Speciality />
             <Combo />
