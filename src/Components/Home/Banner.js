@@ -35,6 +35,45 @@ const HomeBanner = () => {
                     </div>
                 </div>
                 <Updates />
+                <div className="bannerSocial">
+                    <ul className="list-inline">
+                        <li>
+                            <a href="/">
+                                <img src={process.env.PUBLIC_URL + '/images/homepage/social/metro-facebook.svg'} alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/">
+                                <img src={process.env.PUBLIC_URL + '/images/homepage/social/awesome-instagram.svg'} alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/">
+                                <img src={process.env.PUBLIC_URL + '/images/homepage/social/awesome-twitter.svg'} alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/">
+                                <img src={process.env.PUBLIC_URL + '/images/homepage/social/awesome-pinterest.svg'} alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/">
+                                <img src={process.env.PUBLIC_URL + '/images/homepage/social/awesome-youtube.svg'} alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/">
+                                <img src={process.env.PUBLIC_URL + '/images/homepage/social/awesome-linkedin.svg'} alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/">
+                                <img src={process.env.PUBLIC_URL + '/images/homepage/social/simple-discord.svg'} alt="" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </section>
         </React.Fragment>
     )
