@@ -1,0 +1,63 @@
+.faq {
+    background-color: #000;
+    padding-top: 4rem;
+    padding-bottom: 7rem;
+}
+
+.faqs {
+    font-family: FTYOverKillMachinedNC;
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.Frequently-Asked-Questions {
+    margin-bottom: 4rem;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.Line-92 {
+    height: 0;
+    opacity: 0.18;
+    border: solid 1px #fff;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.question {
+    font-family: FTYOverKillMachinedNC;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.answer {
+    margin-top: 2rem;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}

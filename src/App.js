@@ -7,6 +7,8 @@ import Nav from "./Components/Nav";
 import Footer from "./Components/Footer";
 import BlogDetail from "./Components/Blog/BlogDetail";
 import PackDetails from "./Components/PackDetails";
+import Faq from './Components/FAQ/faq';
+import Contactus from "./Components/Contactus/Contactus";
 
 
 const App = () => {
@@ -19,6 +21,8 @@ const App = () => {
           <Route path="/blog" exact component={Blog} />
           <Route path="/blog-detail" exact component={BlogDetail} />
           <Route path="/details/:id" exact component={PackDetails} />
+          <Route path="/faq" exact component={Faq} />
+          <Route path="/contactus" exact component={Contactus} />
         </Switch>
         <Footer />
       </div>
