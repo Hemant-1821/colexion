@@ -9,6 +9,7 @@ import BlogDetail from "./Components/Blog/BlogDetail";
 import PackDetails from "./Components/PackDetails";
 import Faq from './Components/FAQ/faq';
 import Contactus from "./Components/Contactus/Contactus";
+import Aboutus from "./Components/Aboutus/Aboutus";
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/details/:id" exact component={PackDetails} />
           <Route path="/faq" exact component={Faq} />
           <Route path="/contactus" exact component={Contactus} />
+          <Route path="/aboutus" exact component={Aboutus} />
         </Switch>
         <Footer />
       </div>

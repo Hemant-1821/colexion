@@ -1,0 +1,211 @@
+.aboutus{
+    background-color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.aboutus-rectangle {
+    margin-top: 2rem;
+    width: 119px;
+    height: 28px;
+    padding: 2px 15px 2px 20px;
+    color: #fff;
+    background-image: linear-gradient(89deg, #21f5fc -47%, #b241f2 99%);
+}
+
+.Head {
+    margin-top: 1rem;
+    font-family: FTYOverKillMachinedNC;
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.content{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.left-col{
+    padding: 25px;
+}
+
+.right-col{
+    padding: 25px;
+}
+
+.Rectangle-numbers {
+    padding: 15px;
+    margin-top: 5%;
+    margin-left: 22%;
+    margin-right: 22%;
+    color: white;
+    border: solid 1px #707070;
+}
+
+.number{
+    font-family: FTYOverKillMachinedNC;
+    font-size: 51px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.label{
+    opacity: 0.8;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.Founding-team {
+    margin-top: 6rem;
+    font-family: FTYOverKillMachinedNC;
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.Founding-team-content{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.image-container{
+    position: relative;
+    height: 20rem;
+}
+
+.founder-image-bg{
+    position: absolute;
+    top: 50px;
+    left: 4px;  
+}
+
+.founder-image{
+    position: absolute;
+}
+
+.member-name{
+    position: absolute;
+    top: 269px;
+    left: 44px;
+    opacity: 0.8;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.18;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.member-designation{
+    position: absolute;
+    top: 310px;
+    left: 71px;
+    opacity: 0.56;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.join-us-content {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.join-us-head {
+    font-family: FTYOverKillMachinedNC;
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.join-us-content{
+    width: 45rem;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.join-us-button {
+    font-size: 25px;
+    color: white;
+    padding: 9px 40px 9px 40px;
+    background-image: linear-gradient(to right, #21f5fc 0%, #b241f2 99%);
+}
+
+.Roadmap{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.Roadmap-head {
+    font-family: FTYOverKillMachinedNC;
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+  }

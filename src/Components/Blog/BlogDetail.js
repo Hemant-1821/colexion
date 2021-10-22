@@ -8,15 +8,15 @@ const BlogDetail = () => {
             <div className="container">
                 <div className="row section">
                     <Link className="row back-container" to="/blog">
-                        <div class="arrow-detail arrow-bar-detail is-left"></div>
-                        <p className="back">Back</p>
+                        <img src={process.env.PUBLIC_URL + '/images/blog/left-arrow.png'} height="35px" width="30px"/>
+                        <p className="back">BACK</p>
                     </Link>
                     <div className="row">
                         <div className="col-6">
-                            <img src={process.env.PUBLIC_URL + '/images/blog/lady.png'} alt="" height="420px" width="510px" />
+                            <img src={process.env.PUBLIC_URL + '/images/blog/lady.png'} alt="" height="420px" width="550px" />
                         </div>
-                        <div className="col-6 right-col">
-                            <p className="Wallets">MARKETS</p>
+                        <div className="col-6">
+                            <p className="details-Wallets">MARKETS</p>
                             <p className="Which-Indian-Detail">Which Indian celebrities are showing interest in NFT</p>
                             <div class="By-Rohan-Hada">By Rohan Hada</div>
                             <div class="September-16-2022">September 16, 2022</div>
@@ -95,7 +95,7 @@ const BlogDetail = () => {
                         </div>
                     </div>
                     <div className="col-4">
-                        <div class="Editor-Wallets">Editor's Choice</div>
+                        <div class="Editor-Wallets">EDITOR'S CHOICE</div>
                         <div class="What-is-Ripple-The-Journey-from-a-Money-Transfer-Platform">
                             What is Ripple: The Journey from a Money Transfer Platform
                         </div>
