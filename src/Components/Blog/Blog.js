@@ -69,7 +69,7 @@ const Blog = () => {
                             <p className="grid-Wallets">MARKETS</p>
                             <p className="grid-card-head">How Artists are gaining exposure from NFTs</p>
                             <p className="grid-content">How Artists are gaining exposure from NFTs? If you are an Artist and want to gain some exposure then you might want to gain attractions of people</p>
-                            <p className="grid-Read-Article">Read Article <img src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'} height="50px" width="40px"/></p>
+                            <p className="grid-Read-Article">Read Article <img alt="" src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'} height="50px" width="40px"/></p>
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@ const Blog = () => {
                         <p className="blog-Wallets">MARKETS</p>
                         <p className="Which-Indian-celebrities-are-showing-interest-in-NFT">Which Indian celebrities are showing interest in NFT</p>
                         <p className="which-Indian-content">Which Indian celebrities are showing interest in NFT NFTs are not only an ongoing craze between Artists and Crypto users but NFTs are also gaining the attention of major Celebrities. Since NFTs</p>
-                        <p className="Read-Article">Read Article <img src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'} height="50px" width="45px"/></p>
+                        <p className="Read-Article">Read Article <img alt="" src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'} height="50px" width="45px"/></p>
                     </div>
                 </div>
 
@@ -93,21 +93,21 @@ const Blog = () => {
                             <p className="grid-Wallets">MARKETS</p>
                             <p className="grid-card-head">How Artists are gaining exposure from NFTs</p>
                             <p className="grid-content">How Artists are gaining exposure from NFTs? If you are an Artist and want to gain some exposure then you might want to gain attractions of people</p>
-                            <p className="grid-Read-Article">Read Article <img src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'} height="50px" width="40px"/></p>
+                            <p className="grid-Read-Article">Read Article <img alt="" src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'} height="50px" width="40px"/></p>
                         </div>
                         <div className="col-4">
                             <img src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" height="230px" width="330px" />
                             <p className="grid-Wallets">MARKETS</p>
                             <p className="grid-card-head">How Artists are gaining exposure from NFTs</p>
                             <p className="grid-content">How Artists are gaining exposure from NFTs? If you are an Artist and want to gain some exposure then you might want to gain attractions of people</p>
-                            <p className="grid-Read-Article">Read Article <img src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'} height="50px" width="40px"/></p>
+                            <p className="grid-Read-Article">Read Article <img alt="" src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'} height="50px" width="40px"/></p>
                         </div>
                         <div className="col-4">
                             <img src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" height="230px" width="330px" />
                             <p className="grid-Wallets">MARKETS</p>
                             <p className="grid-card-head">How Artists are gaining exposure from NFTs</p>
                             <p className="grid-content">How Artists are gaining exposure from NFTs? If you are an Artist and want to gain some exposure then you might want to gain attractions of people</p>
-                            <p className="grid-Read-Article">Read Article <img src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'} height="50px" width="40px"/></p>
+                            <p className="grid-Read-Article">Read Article <img alt="" src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'} height="50px" width="40px"/></p>
                         </div>
                     </div>
                 </div>
@@ -120,7 +120,7 @@ const Blog = () => {
                         <p className="blog-Wallets">MARKETS</p>
                         <p className="Which-Indian-celebrities-are-showing-interest-in-NFT">Which Indian celebrities are showing interest in NFT</p>
                         <p className="which-Indian-content">Which Indian celebrities are showing interest in NFT NFTs are not only an ongoing craze between Artists and Crypto users but NFTs are also gaining the attention of major Celebrities. Since NFTs</p>
-                        <p className="Read-Article">Read Article <img src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'} height="50px" width="45px"/></p>
+                        <p className="Read-Article">Read Article <img alt="" src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'} height="50px" width="45px"/></p>
                     </div>
                 </div>
 
@@ -131,21 +131,21 @@ const Blog = () => {
                             <p className="grid-Wallets">MARKETS</p>
                             <p className="grid-card-head">How Artists are gaining exposure from NFTs</p>
                             <p className="grid-content">How Artists are gaining exposure from NFTs? If you are an Artist and want to gain some exposure then you might want to gain attractions of people</p>
-                            <p className="grid-Read-Article">Read Article <img src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'} height="50px" width="40px"/></p>
+                            <p className="grid-Read-Article">Read Article <img alt="" src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'} height="50px" width="40px"/></p>
                         </div>
                         <div className="col-4">
                             <img src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" height="230px" width="330px" />
                             <p className="grid-Wallets">MARKETS</p>
                             <p className="grid-card-head">How Artists are gaining exposure from NFTs</p>
                             <p className="grid-content">How Artists are gaining exposure from NFTs? If you are an Artist and want to gain some exposure then you might want to gain attractions of people</p>
-                            <p className="grid-Read-Article">Read Article <img src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'} height="50px" width="40px"/></p>
+                            <p className="grid-Read-Article">Read Article <img alt="" src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'} height="50px" width="40px"/></p>
                         </div>
                         <div className="col-4">
                             <img src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" height="230px" width="330px" />
                             <p className="grid-Wallets">MARKETS</p>
                             <p className="grid-card-head">How Artists are gaining exposure from NFTs</p>
                             <p className="grid-content">How Artists are gaining exposure from NFTs? If you are an Artist and want to gain some exposure then you might want to gain attractions of people</p>
-                            <p className="grid-Read-Article">Read Article <img src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'} height="50px" width="40px"/></p>
+                            <p className="grid-Read-Article">Read Article <img alt="" src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'} height="50px" width="40px"/></p>
                         </div>
                     </div>
                 </div>
