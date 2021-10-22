@@ -6,8 +6,8 @@ const ShopCategory = () => {
             <div className="container">
                 <div className="sectionHeading justify-content-center text-center">
                     <div className="d-block">
-                        <h2>shop by category</h2>
-                        <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h3>
+                        <h2>SHOP BY CATEGORY</h2>
+                        <h3>Explore and purchase a variety of creatives and stars Memorabilia</h3>
                     </div>
                 </div>
                 <div className="shopCategoryList">

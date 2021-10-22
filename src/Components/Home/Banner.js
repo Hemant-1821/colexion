@@ -11,8 +11,8 @@ const HomeBanner = () => {
                         <div className="col-lg-7 col-12">
                             <div className="bannerContent">
                                 <h3>INFINITY BEGINS HERE</h3>
-                                <h1>Own Best Prime<br/>NFTs Collections</h1>
-                                <h2>Collect and trade officially licensed<br/>digital collectibles</h2>
+                                <h1>OWN PRIME NFTs COLLECTION</h1>
+                                <h2>Buy, Collect and Trade officially licensed digital collectibles.</h2>
                                 <Link to="/" className="customBtn">Join waitlist</Link>
                                 <div className="counterNum">
                                     <ul>
@@ -35,6 +35,53 @@ const HomeBanner = () => {
                     </div>
                 </div>
                 <Updates />
+                <div className="bannerImg">
+                    <div className="bannerImgAnimation">
+                        <img src={process.env.PUBLIC_URL + '/images/homepage/infinite.svg'} alt="" />
+                    </div>
+                    {/* <div className="bannerImgFlash">
+                        <img src={process.env.PUBLIC_URL + '/images/homepage/social/metro-facebook.svg'} alt="" />
+                    </div> */}
+                </div>
+                <div className="bannerSocial">
+                    <ul className="list-inline">
+                        <li>
+                            <a href="/">
+                                <img src={process.env.PUBLIC_URL + '/images/homepage/social/metro-facebook.svg'} alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/">
+                                <img src={process.env.PUBLIC_URL + '/images/homepage/social/awesome-instagram.svg'} alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/">
+                                <img src={process.env.PUBLIC_URL + '/images/homepage/social/awesome-twitter.svg'} alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/">
+                                <img src={process.env.PUBLIC_URL + '/images/homepage/social/awesome-pinterest.svg'} alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/">
+                                <img src={process.env.PUBLIC_URL + '/images/homepage/social/awesome-youtube.svg'} alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/">
+                                <img src={process.env.PUBLIC_URL + '/images/homepage/social/awesome-linkedin.svg'} alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/">
+                                <img src={process.env.PUBLIC_URL + '/images/homepage/social/simple-discord.svg'} alt="" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </section>
         </React.Fragment>
     )

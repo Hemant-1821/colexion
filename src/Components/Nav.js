@@ -59,7 +59,7 @@ const Nav = () => {
                         <li className="nav-item">
                             <Link onClick={loginModalHandler} className="nav-link" to="/">Sign in</Link>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item colorSwitcher">
                             {
                                 switcher ?
                                 <Link className="nav-link" to="/" onClick={darkColorSwitcher}>
