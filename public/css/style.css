@@ -344,6 +344,11 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
     background-size: cover;
     padding: 15px 15px 0;
 }
+.aboutus-videoFrame{
+    background: url(../images/homepage/videoframe.svg) 0 0 no-repeat;
+    background-size: cover;
+    padding: 12px 50px 0px 19px;
+}
 .museum h3, .aboutUs h3{
     font-size: 18px;
     line-height: 1.5;
