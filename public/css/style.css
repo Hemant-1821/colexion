@@ -149,14 +149,14 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
 }
 .bannerImg {
     position: absolute;
-    top: 40px;
-    right: 190px;
+    top: 77px;
+    right: 235px;
     z-index: 0;
 }
 
 .bannerImgAnimation img {
     max-width: 400px;
-    animation: rotation 3s infinite linear;
+    animation: rotation 55s infinite linear;
 }
 @keyframes rotation {
     from {
@@ -254,7 +254,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
     font-size: 44px;
     color: #fff;
     font-family: "FTYOverKillMachinedNC";
-    margin: 0 0 5px;
+    margin: 0 0 10px;
 }
 
 .sectionHeading h3 {

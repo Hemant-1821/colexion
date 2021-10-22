@@ -8,7 +8,7 @@ const BlogDetail = () => {
             <div className="container">
                 <div className="row section">
                     <Link className="row back-container" to="/blog">
-                        <img src={process.env.PUBLIC_URL + '/images/blog/left-arrow.png'} height="35px" width="30px"/>
+                        <img alt="" src={process.env.PUBLIC_URL + '/images/blog/left-arrow.png'} height="35px" width="30px"/>
                         <p className="back">BACK</p>
                     </Link>
                     <div className="row">

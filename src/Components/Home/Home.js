@@ -1,4 +1,5 @@
 import React from 'react'
+import Teams from '../Teams';
 import About from './About';
 import HomeBanner from './Banner';
 import Combo from './Combo';
@@ -23,6 +24,7 @@ const Home = () => {
             <About />
             <Speciality />
             <Combo />
+            <Teams />
             <Press />
             <FaqScroll />
             <Partners />
