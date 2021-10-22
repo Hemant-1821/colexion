@@ -27,21 +27,20 @@ const Partners = () => {
                         <Link to="/">
                             <img src={process.env.PUBLIC_URL + '/images/partners/edge-coin.png'} alt="" />
                         </Link>
-                    </div>
-                    <div className="partnersList">
-                        <Link to="/" style={{"marginTop": "-12px"}}>
+                        <Link to="/">
                             <img src={process.env.PUBLIC_URL + '/images/partners/pajson-global-holding.png'} alt="" />
                         </Link>
                         <Link to="/">
                             <img src={process.env.PUBLIC_URL + '/images/partners/payiza.png'} alt="" />
                         </Link>
-                        <Link to="/" style={{"marginTop": "19px"}}>
+                        <Link to="/">
                             <img src={process.env.PUBLIC_URL + '/images/partners/polygon.png'} alt="" />
                         </Link>
                         <Link to="/">
                             <img src={process.env.PUBLIC_URL + '/images/partners/sanctum.png'} alt="" />
                         </Link>
                     </div>
+
                 </div>
             </div>
         </section>
