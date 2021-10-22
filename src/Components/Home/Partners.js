@@ -13,31 +13,33 @@ const Partners = () => {
                     </div>
                     <div className="partnersList">
                         <Link to="/">
-                            <img src="http://colexion.io/assets/images/partners/polygon.png" alt="" />
+                            <img src={process.env.PUBLIC_URL + '/images/partners/AllStar.png'} alt="" />
                         </Link>
                         <Link to="/">
-                            <img src="http://colexion.io/assets/images/partners/polygon.png" alt="" />
+                            <img src={process.env.PUBLIC_URL + '/images/partners/bastionex.png'} alt="" />
                         </Link>
                         <Link to="/">
-                            <img src="http://colexion.io/assets/images/partners/polygon.png" alt="" />
+                            <img src={process.env.PUBLIC_URL + '/images/partners/cineyug.png'} alt="" />
                         </Link>
                         <Link to="/">
-                            <img src="http://colexion.io/assets/images/partners/polygon.png" alt="" />
+                            <img src={process.env.PUBLIC_URL + '/images/partners/diafa.png'} alt="" />
                         </Link>
                         <Link to="/">
-                            <img src="http://colexion.io/assets/images/partners/polygon.png" alt="" />
+                            <img src={process.env.PUBLIC_URL + '/images/partners/edge-coin.png'} alt="" />
+                        </Link>
+                    </div>
+                    <div className="partnersList">
+                        <Link to="/" style={{"marginTop": "-12px"}}>
+                            <img src={process.env.PUBLIC_URL + '/images/partners/pajson-global-holding.png'} alt="" />
                         </Link>
                         <Link to="/">
-                            <img src="http://colexion.io/assets/images/partners/polygon.png" alt="" />
+                            <img src={process.env.PUBLIC_URL + '/images/partners/payiza.png'} alt="" />
+                        </Link>
+                        <Link to="/" style={{"marginTop": "19px"}}>
+                            <img src={process.env.PUBLIC_URL + '/images/partners/polygon.png'} alt="" />
                         </Link>
                         <Link to="/">
-                            <img src="http://colexion.io/assets/images/partners/polygon.png" alt="" />
-                        </Link>
-                        <Link to="/">
-                            <img src="http://colexion.io/assets/images/partners/polygon.png" alt="" />
-                        </Link>
-                        <Link to="/">
-                            <img src="http://colexion.io/assets/images/partners/polygon.png" alt="" />
+                            <img src={process.env.PUBLIC_URL + '/images/partners/sanctum.png'} alt="" />
                         </Link>
                     </div>
                 </div>

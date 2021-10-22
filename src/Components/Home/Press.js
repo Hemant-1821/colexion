@@ -12,12 +12,19 @@ const Press = () => {
                         </div>
                     </div>
                 </div>
-                <div className="pressList">
-                    <img src="http://colexion.io/assets/images/press/Kuwait_times.png" alt="" />
-                    <img src="http://colexion.io/assets/images/press/Kuwait_times.png" alt="" />
-                    <img src="http://colexion.io/assets/images/press/Kuwait_times.png" alt="" />
-                    <img src="http://colexion.io/assets/images/press/Kuwait_times.png" alt="" />
-                    <img src="http://colexion.io/assets/images/press/Kuwait_times.png" alt="" />
+                <div className="">
+                    <div className="row justify-content-around">
+                        <img src={process.env.PUBLIC_URL + '/images/press release/ani.png'} alt="" />
+                        <img src={process.env.PUBLIC_URL + '/images/press release/apn.png'} alt="" />
+                        <img src={process.env.PUBLIC_URL + '/images/press release/BS.png'} alt="" />
+                        <img src={process.env.PUBLIC_URL + '/images/press release/dna.png'} alt="" />
+                    </div>
+                    <div className="row justify-content-around">
+                        <img src={process.env.PUBLIC_URL + '/images/press release/Kuwait_times.png'} alt="" />
+                        <img src={process.env.PUBLIC_URL + '/images/press release/outlook.png'} alt="" />
+                        <img src={process.env.PUBLIC_URL + '/images/press release/thehindu.png'} alt="" />
+                        <img src={process.env.PUBLIC_URL + '/images/press release/the-print.png'} alt="" />
+                    </div>
                 </div>
             </div>
         </section>
