@@ -66,10 +66,9 @@ const Footer = () => {
                     </div>
                     <div className="footerBottom">
                         <ul className="list-inline">
-                            <li><Link to="/">Home</Link></li>
                             <li><Link to="/">Terms of Use</Link></li>
                             <li><Link to="/faq">FAQ</Link></li>
-                            <li><Link to="/blog">Blog</Link></li>
+                            <li><Link to="/contactus">Contact Us</Link></li>
                             <li><Link to="/">Help Center</Link></li>
                         </ul>
                         <ul className="list-inline footerDetails">

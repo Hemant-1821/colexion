@@ -1,6 +1,7 @@
 import React from 'react';
 import Partners from '../Home/Partners';
 import Press from '../Home/Press';
+import Teams from '../Teams';
 import './Aboutus.css';
 import Roadmap from './Roadmap/Roadmap';
 
@@ -27,7 +28,7 @@ const Aboutus = () => {
                         </div>
                     </div>
                 </div>
-                <div className="Rectangle-numbers d-flex justify-content-around">
+                <div className="Rectangle-numbers d-flex justify-content-around mb-2">
                     <div className="">
                         <div className="number">1200+</div>
                         <div className="label">NFTS</div>
@@ -41,56 +42,9 @@ const Aboutus = () => {
                         <div className="label">COUNTRIES</div>
                     </div>
                 </div>
-                <div className="">
-                    <div className="Founding-team">FOUNDING TEAM</div>
-                    <div className="Founding-team-content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</div>
-                    <div className="team-images">
-                        <div className="row mt-5 justify-content-around">
-                            <div className="col-3 image-container">
-                                <img src={process.env.PUBLIC_URL + '/images/founder-bg.png'} height="200px" width="200px" className="founder-image-bg"></img>
-                                <img src={process.env.PUBLIC_URL + '/images/founder.png'} height="250px" width="250px"  className="founder-image"></img>
-                                <div className="member-name">Abhay Aggrawal</div>
-                                <div className="member-designation">CEO & Founder</div>
-                            </div>
-                            <div className="col-3 image-container">
-                                <img src={process.env.PUBLIC_URL + '/images/founder-bg.png'} height="200px" width="200px" className="founder-image-bg"></img>
-                                <img src={process.env.PUBLIC_URL + '/images/founder.png'} height="250px" width="250px"  className="founder-image"></img>
-                                <div className="member-name">Abhay Aggrawal</div>
-                                <div className="member-designation">CEO & Founder</div>
-                            </div>
-                            <div className="col-3 image-container">
-                                <img src={process.env.PUBLIC_URL + '/images/founder-bg.png'} height="200px" width="200px" className="founder-image-bg"></img>
-                                <img src={process.env.PUBLIC_URL + '/images/founder.png'} height="250px" width="250px"  className="founder-image"></img>
-                                <div className="member-name">Abhay Aggrawal</div>
-                                <div className="member-designation">CEO & Founder</div>
-                            </div>
-                        </div>
-                        <div className="row mt-5 justify-content-around">
-                            <div className="col-3 image-container">
-                                <img src={process.env.PUBLIC_URL + '/images/founder-bg.png'} height="200px" width="200px" className="founder-image-bg"></img>
-                                <img src={process.env.PUBLIC_URL + '/images/founder.png'} height="250px" width="250px"  className="founder-image"></img>
-                                <div className="member-name">Abhay Aggrawal</div>
-                                <div className="member-designation">CEO & Founder</div>
-                            </div>
-                            <div className="col-3 image-container">
-                                <img src={process.env.PUBLIC_URL + '/images/founder-bg.png'} height="200px" width="200px" className="founder-image-bg"></img>
-                                <img src={process.env.PUBLIC_URL + '/images/founder.png'} height="250px" width="250px"  className="founder-image"></img>
-                                <div className="member-name">Abhay Aggrawal</div>
-                                <div className="member-designation">CEO & Founder</div>
-                            </div>
-                            <div className="col-3 image-container">
-                                <img src={process.env.PUBLIC_URL + '/images/founder-bg.png'} height="200px" width="200px" className="founder-image-bg"></img>
-                                <img src={process.env.PUBLIC_URL + '/images/founder.png'} height="250px" width="250px"  className="founder-image"></img>
-                                <div className="member-name">Abhay Aggrawal</div>
-                                <div className="member-designation">CEO & Founder</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <Partners/>
-                </div>
+                <Teams />
+                <Partners/>
+ 
 
                 <div className="Roadmap">
                     <div className="Roadmap-head">ROADMAP</div>
@@ -105,7 +59,7 @@ const Aboutus = () => {
                     <div className="row justify-content-center mt-5 mb-5">
                         <button className="join-us-button">JOIN US</button>
                     </div>
-                    <img src={process.env.PUBLIC_URL + '/images/joinus.png'} height="50%" width="100%" className="joinus-img"/>
+                    <img alt="" src={process.env.PUBLIC_URL + '/images/joinus.png'} height="50%" width="100%" className="joinus-img"/>
                 </div>
 
                 <div>
