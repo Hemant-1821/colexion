@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Contactus.css';
 
 const Contactus = () => {
+    
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return(
         <div className='contact-us-container'>
             <div className="container">

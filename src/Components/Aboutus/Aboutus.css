@@ -76,7 +76,7 @@
     .label{
         opacity: 0.8;
         font-family: Poppins;
-        font-size: 24px;
+        font-size: 30px;
         font-weight: 600;
         font-stretch: normal;
         font-style: normal;
@@ -129,10 +129,14 @@
         position: absolute;
     }
 
-    .member-name{
+    .member-name-row{
         position: absolute;
         top: 269px;
         left: 44px;
+    }
+
+    .member-name{
+        width: 100%;
         opacity: 0.8;
         font-family: Poppins;
         font-size: 20px;
@@ -141,14 +145,12 @@
         font-style: normal;
         line-height: 2.18;
         letter-spacing: normal;
-        text-align: left;
+        text-align: center;
         color: #fff;
     }
 
     .member-designation{
-        position: absolute;
-        top: 310px;
-        left: 71px;
+        width: 100%;
         opacity: 0.56;
         font-family: Poppins;
         font-size: 14px;
@@ -156,11 +158,12 @@
         font-stretch: normal;
         font-style: normal;
         letter-spacing: normal;
-        text-align: left;
+        text-align: center;
         color: #fff;
     }
 
     .join-us-content {
+        width: 45rem;
         font-family: Poppins;
         font-size: 24px;
         font-weight: normal;
@@ -173,7 +176,7 @@
     }
 
     .join-us-button {
-        font-size: 25px;
+        font-size: 20px;
         color: white;
         padding: 9px 40px 9px 40px;
         background-image: linear-gradient(to right, #21f5fc 0%, #b241f2 99%);
@@ -186,6 +189,12 @@
 }
 
 @media only screen and (max-width: 767px) {
+
+    .aboutus-partners-container {
+        margin-left: -4%;
+        margin-right: -4%;
+    }
+
     .aboutus{
         background-color: black;
         padding-top: 5%;
@@ -317,10 +326,13 @@
         position: absolute;
     }
 
-    .member-name{
+    .member-name-row{
+        margin-left: 37px;
         position: absolute;
         top: 147px;
-        left: 83px;
+    }
+    .member-name{
+        width: 100%;
         opacity: 0.8;
         font-family: Poppins;
         font-size: 20px;
@@ -329,14 +341,12 @@
         font-style: normal;
         line-height: 2.18;
         letter-spacing: normal;
-        text-align: left;
+        text-align: center;
         color: #fff;
     }
 
     .member-designation{
-        position: absolute;
-        top: 180px;
-        left: 118px;
+        width: 100%;
         opacity: 0.56;
         font-family: Poppins;
         font-size: 13px;
@@ -344,7 +354,7 @@
         font-stretch: normal;
         font-style: normal;
         letter-spacing: normal;
-        text-align: left;
+        text-align: center;
         color: #fff;
     }
 

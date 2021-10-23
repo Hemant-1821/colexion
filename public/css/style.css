@@ -444,13 +444,13 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
 }
 
 .partnersList img {
-    max-width: 130px;
-    max-height: 100px;
+    max-width: 150px;
+    max-height: 130px;
     margin: 7px 15px;
 }
 
 .partnersBx {
-    padding:100px 50px;
+    padding: 70px 50px;
     border: solid 3px #4f52ff;
     background-color: #0d0931;
     margin-top: 0;

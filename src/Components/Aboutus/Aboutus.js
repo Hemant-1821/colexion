@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Partners from '../Home/Partners';
 import Press from '../Home/Press';
 import Teams from '../Teams';
@@ -6,6 +6,11 @@ import './Aboutus.css';
 import Roadmap from './Roadmap/Roadmap';
 
 const Aboutus = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return(
         <div className="aboutus">
             <div className="container">
@@ -21,26 +26,28 @@ const Aboutus = () => {
                     <h2 className="Head">About Colexion</h2>
                     <div className="row">
                         <div className="col-md-6 content left-col">
-                            Colexion is the world's largest licensed NFT marketplace, offering digital artists a new path for bridging the gap between traditional art markets and the emerging non-fungible token market. Non-fungible tokens are cryptographic tokens that have unique properties encoded in the NFT issuing smart contract, or they are programmed as part of the NFT configuration before issuance. With the same technology, we have developed an exclusive NFT platform where you can create, buy, and sell NFTs at incredible prices.
+                            Colexion is the world's largest licensed NFT marketplace, offering digital artists a new path for bridging the gap between traditional art markets and the emerging non-fungible token market. Non-fungible tokens are cryptographic tokens that have unique properties encoded in the NFT issuing smart contract, or they are programmed as part of the NFT configuration before issuance. With the same technology, we have developed an exclusive NFT platform where you can create, buy, and
                         </div>
                         <div className="col-md-6 content right-col">
-                            We also offer diversity by providing multiple industries NFTs including Art, Entertainment, Lifestyle, Fashion and Sports.
-                            Colexion is the diamond den for millions of fans worldwide who are raving to find the exclusive or premium moments of their favorite celebrities. We feature Hollywood, Bollywood, Cricket, Football and many other industry stars and their outstanding recognition and awards in each section. Discover the most desirable NFTs. 
+                            <p className="mb-0">sell NFTs at incredible prices.</p>
+                            <p>We also offer diversity by providing multiple industries NFTs including Art, Entertainment, Lifestyle, Fashion and Sports.
+                            Colexion is the diamond den for millions of fans worldwide who are raving to find the exclusive or premium moments of their favorite celebrities. We feature Hollywood, Bollywood, Cricket, Football and many other industry stars and their outstanding recognition and awards in each section. Discover the most desirable NFTs.</p>
                         </div>
                     </div>
                 </div>
-                <div className="">
+                <div className="mt-5">
                     <h2 className="Head">Authenticity with 100% Originality</h2>
                     <div className="row">
                         <div className="col-md-6 content left-col">
                             Colexion owns the official rights to sell the NFTs on our digital marketplace. Upon purchase of NFT, the ownership rights are also transferred to sellers immediately.
+                            <p className="m-0">With Smart contracts on NFTs encode terms and</p>
                         </div>
                         <div className="col-md-6 content right-col">
-                            With Smart contracts on NFTs encode terms and conditions, rights and ownership, Ethereum keeps track of your ownership record with its secure blockchain. Therefore, we guarantee 100% authenticity and originality.
+                        conditions, rights and ownership, Ethereum keeps track of your ownership record with its secure blockchain. Therefore, we guarantee 100% authenticity and originality.
                         </div>
                     </div>
                 </div>
-                <div className="">
+                <div className="mt-5">
                     <h2 className="Head">No Cryptocurrency? No Problem</h2>
                     <div className="row">
                         <div className="col-12 content ml-md-4 mt-md-4 pr-md-3">
@@ -63,7 +70,9 @@ const Aboutus = () => {
                     </div>
                 </div>
                 <Teams />
-                <Partners/>
+                <div className="aboutus-partners-container">
+                    <Partners/>
+                </div>
  
 
                 <div className="Roadmap">

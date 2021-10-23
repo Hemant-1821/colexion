@@ -178,6 +178,10 @@
     color: #00caf9;
   }
 
+  .left-column-details{
+    padding-right: 70px;
+  }
+
   .Which-Indian-Detail {
     width: 567px;
     height: 246px;
@@ -327,7 +331,6 @@
   }
 
   .Engaging-with-NFT-Community {
-    margin-left: 25px;
     font-size: 29px;
     font-weight: 900;
     font-stretch: normal;
@@ -344,7 +347,6 @@
   }
 
   .For-an-Artist {
-    margin-left: 53px;
     margin-top: 10px;
     font-family: Poppins;
     font-size: 22px;
@@ -782,7 +784,6 @@
   }
 
   .Engaging-with-NFT-Community {
-    margin-left: 7px;
     font-size: 15.5px;
     font-weight: 900;
     font-stretch: normal;
@@ -799,7 +800,6 @@
   }
 
   .For-an-Artist {
-    margin-left: 25px;
     font-family: Poppins;
     font-size: 15px;
     font-weight: normal;
