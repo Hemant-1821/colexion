@@ -149,8 +149,8 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
 }
 .bannerImg {
     position: absolute;
-    top: 77px;
-    right: 235px;
+    top: 100px;
+    right: 205px;
     z-index: 0;
 }
 

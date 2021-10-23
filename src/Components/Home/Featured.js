@@ -46,8 +46,10 @@ const Featured = () => {
                                 <img src={process.env.PUBLIC_URL + '/images/bravo.png'} alt="" />
                             </div>
                             <div className="slideContent">
+                                <Link to="details/11">
                                 <h3>Dwayne-Bravo</h3>
                                 <p>The Champion</p>
+                                </Link>
                             </div>
                         </div>
                         <div className="slideWrp">

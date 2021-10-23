@@ -13,9 +13,11 @@ import ShopCategory from './ShopCategory';
 import Speciality from './Speciality';
 import Video from './Video';
 
-const Home = () => {
+const Home = (props) => {
+    
     return (
         <React.Fragment>
+            {console.log(props)}
             <HomeBanner />
             <Video />
             <Featured />
@@ -23,7 +25,7 @@ const Home = () => {
             <Entertainment />
             <About />
             <Speciality />
-            <Combo />
+            <Combo theme={props}/>
             <Teams />
             <Press />
             <FaqScroll />

@@ -1,4 +1,28 @@
 @media only screen and (max-width:991px){
+    #moblieToggle {
+        color: #56d1f9;
+        font-size: 24px;
+        outline: none;
+    }
+    
+    div#navbarSupportedContent.active {
+        display: block;
+    }
+    
+    #myNav ul li a {
+        padding: 0 0;
+        min-width: 150px;
+        text-align: center;
+        margin: 6px 0;
+    }
+    
+    #myNav ul li a span {
+        top: -10px;
+    }
+    
+    .colorSwitcher {
+        border-left: none;
+    }
     .homeVideo, .scroller .slick-slider{
         padding: 0 70px;
     }
@@ -10,5 +34,145 @@
     }
     .sectionHeading, .pressList {
         flex-wrap: wrap;
+    }
+    .bannerImg{
+        right: 45px;
+    }
+}
+@media only screen and (max-width:767px){
+    .bannerImgAnimation img {
+        max-width: 250px;
+    }
+    
+    .bannerImg {top: 50px;}
+    
+    .homeBanner {
+        padding-top: 280px;
+    }
+    .updatesWrp {
+        margin-top: 50px;
+    }
+    .bannerContent h1 {
+        font-size: 40px;
+    }
+    
+    .counterNum ul li h5 {
+        font-size: 18px;
+    }
+    
+    .counterNum ul li h4 {
+        font-size: 28px;
+    }
+    
+    .updatesWrp ul {
+        flex-direction: column;
+    }
+    
+    .updatesWrp li {
+        display: block !important;
+        padding-left: 0 !important;
+        border-left: 0 !important;
+    }
+    
+    .updatesWrp li h3 {
+        margin: 15px 0 0;
+    }
+    
+    .bannerSocial {
+        bottom: auto;
+        top: 30%;
+        right: 15px;
+    }
+    
+    .partnersBx {
+        padding: 50px;
+    }
+    .combo .scroller .slick-slider {
+        padding: 0 ;
+    }
+    .partnersList img {
+        max-width: 100px;
+        margin: 0 5px 10px;
+    }
+    
+    .shopCategoryList {
+        flex-wrap: wrap;
+    }
+    
+    .shopCategoryBx {
+        margin: 0 0 20px;
+    }
+    
+    .subscribeForm input {
+        width: 100%;
+        margin: 0 0 10px;
+    }
+    
+    .subscribeBx {
+        padding: 50px;
+    }
+    
+    .subscribeForm button {
+        width: 100%;
+        padding: 0;
+        font-size: 16px;
+    }
+    
+    .footerTop {
+        padding: 0;
+    }
+    
+    .footerBottom {
+        flex-wrap: wrap;
+    }
+    
+    .footerBottom .list-inline li a {
+        font-size: 14px;
+    }
+    
+    .footerBottom .list-inline li {
+        margin: 0 5px;
+    }
+    
+    .footerBottom .list-inline.footerDetails li {
+        margin: 0 5px;
+        width: 100%;
+        text-align: center;
+        margin: 6px 0;
+    }
+    
+    .footerBottom .list-inline.footerDetails {
+        flex-wrap: wrap;
+    }
+    
+    .footerTop .list-inline li {
+        margin: 0 5px;
+    }
+    
+    .customSec {
+        padding: 50px 0;
+    }
+    .productDetailsCard {
+        width: 100%;
+        min-width: 1px;
+    }
+    
+    .productDetailsWrp {
+        flex-wrap: wrap;
+    }
+    
+    .playerStatsList li {
+        margin: 0 5px;
+    }
+    
+    .playerStatsList li span {
+        font-size: 16px;
+    }
+    
+    .productDetailsContent {
+        margin-left: 0;
+    }
+    .modalInr {
+        width: 350px;
     }
 }
