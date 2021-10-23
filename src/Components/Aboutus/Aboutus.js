@@ -18,13 +18,33 @@ const Aboutus = () => {
                     <div className="aboutus-rectangle">ABOUT US</div>
                 </div>
                 <div className="">
-                    <div className="Head">WHAT'S COLEXION?</div>
+                    <div className="Head">About Colexion</div>
                     <div className="row">
                         <div className="col-6 content left-col">
-                            The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex.
+                            Colexion is the world's largest licensed NFT marketplace, offering digital artists a new path for bridging the gap between traditional art markets and the emerging non-fungible token market. Non-fungible tokens are cryptographic tokens that have unique properties encoded in the NFT issuing smart contract, or they are programmed as part of the NFT configuration before issuance. With the same technology, we have developed an exclusive NFT platform where you can create, buy, and sell NFTs at incredible prices.
                         </div>
                         <div className="col-6 content right-col">
-                            The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex.
+                            We also offer diversity by providing multiple industries NFTs including Art, Entertainment, Lifestyle, Fashion and Sports.
+                            Colexion is the diamond den for millions of fans worldwide who are raving to find the exclusive or premium moments of their favorite celebrities. We feature Hollywood, Bollywood, Cricket, Football and many other industry stars and their outstanding recognition and awards in each section. Discover the most desirable NFTs. 
+                        </div>
+                    </div>
+                </div>
+                <div className="">
+                    <div className="Head">Authenticity with 100% Originality</div>
+                    <div className="row">
+                        <div className="col-6 content left-col">
+                            Colexion owns the official rights to sell the NFTs on our digital marketplace. Upon purchase of NFT, the ownership rights are also transferred to sellers immediately.
+                        </div>
+                        <div className="col-6 content right-col">
+                            With Smart contracts on NFTs encode terms and conditions, rights and ownership, Ethereum keeps track of your ownership record with its secure blockchain. Therefore, we guarantee 100% authenticity and originality.
+                        </div>
+                    </div>
+                </div>
+                <div className="">
+                    <div className="Head">No Cryptocurrency? No Problem</div>
+                    <div className="row">
+                        <div className="col-12 content ml-4 mt-4 pr-3">
+                            Whenever you wish to buy NFT at Colexion but don’t have cryptocurrency then you can use CLXN (Colexion Native Token) and your national currency (INR, USD) to purchase the same. At Colexion, we aim to provide access to the new and emerging digital revolution.  
                         </div>
                     </div>
                 </div>
