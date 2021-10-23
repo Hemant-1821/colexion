@@ -1,19 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Slider from "react-slick";
+//import Slider from "react-slick";
+import Combo from './Home/Combo';
 
 const PackDetails = () => {
-    var settings = {
-        className: "center",
-        centerMode: true,
-        infinite: true,
-        centerPadding: "60px",
-        slidesToShow: 3,
-        dots:false,
-        autoplay: true,
-        nav:false,
-        speed: 500
-    };
+    // var settings = {
+    //     className: "center",
+    //     centerMode: true,
+    //     infinite: true,
+    //     centerPadding: "60px",
+    //     slidesToShow: 3,
+    //     dots:false,
+    //     autoplay: true,
+    //     nav:false,
+    //     speed: 500
+    // };
     return (
         <React.Fragment>
             <section className="dark customSec pt-4">
@@ -68,7 +69,7 @@ const PackDetails = () => {
                     </div>
                 </div>
             </section>
-            <section className="dark customSec combo pb-5">
+            {/* <section className="dark customSec combo pb-5">
             <div className="container">
                 <div className="scroller">
                     <div className="sectionHeading">
@@ -96,7 +97,8 @@ const PackDetails = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
+        <Combo />
         <section className="dark customSec speciality pb-2">
             <div className="container">
                 <div className="sectionHeading">

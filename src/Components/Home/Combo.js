@@ -1,7 +1,18 @@
-import React from 'react'
+import React,{useEffect, useState} from 'react'
 import Slider from "react-slick";
 
-const Combo = () => {
+const Combo = ({theme}) => {
+    const [themeColor5, setThemeColor5] = useState(theme)
+    //const themeNanme = theme;
+    const themeColor = () => {
+        if(themeColor5 === false){
+            setThemeColor5(true)
+        }
+    }
+    useEffect(() => {
+        console.log(theme);
+        themeColor();
+    }, )
     var settings = {
         className: "center",
         centerMode: true,
@@ -11,10 +22,28 @@ const Combo = () => {
         dots:false,
         autoplay: true,
         nav:false,
-        speed: 500
+        speed: 500,
+        responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+
+          ]
     };
     return (
-        <section className="dark customSec combo">
+        <section className="white customSec combo">
+            {console.log(theme?"true":"false")}
             <div className="container">
                 <div className="scroller">
                     <div className="sectionHeading justify-content-center text-center">
