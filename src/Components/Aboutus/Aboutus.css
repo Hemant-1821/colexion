@@ -1,217 +1,375 @@
-.aboutus{
-    background-color: black;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
+@media only screen and (min-width: 768px ) {
+    .aboutus{
+        background-color: black;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
 
-.aboutus-rectangle {
-    font-weight: bold;
-    font-size: 18px;
-    margin-top: 2rem;
-    width: 119px;
-    height: 28px;
-    padding: 2px 9px 2px 13px;
-    color: #fff;
-    background-image: linear-gradient(89deg, #21f5fc -47%, #b241f2 99%);
-}
+    .aboutus-rectangle {
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 2rem;
+        width: 119px;
+        height: 28px;
+        padding: 2px 9px 2px 13px;
+        color: #fff;
+        background-image: linear-gradient(89deg, #21f5fc -47%, #b241f2 99%);
+    }
 
-.Head {
-    margin-top: 1rem;
-    font-family: FTYOverKillMachinedNC;
-    font-size: 50px;
+    .Head {
+        margin-top: 1rem;
+        font-family: FTYOverKillMachinedNC;
+        font-size: 50px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+    }
+
+    .content{
+    font-family: Poppins;
+    font-size: 15px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.2;
-    letter-spacing: normal;
-    text-align: center;
-    color: #fff;
-}
-
-.content{
-  font-family: Poppins;
-  font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: left;
-  color: #fff;
-}
-
-.left-col{
-    font-size: 17px;
-    padding: 20px 35px 0px 35px;
-    width: 10rem;
-}
-
-.right-col{
-    font-size: 17px;
-    padding: 20px 35px 0px 35px;
-    width: 10rem;
-}
-
-.Rectangle-numbers {
-    padding: 25px 15px 33px 15px; 
-    margin-top: 5%;
-    margin-left: 13%;
-    margin-right: 13%;
-    color: white;
-    border: solid 1px #707070;
-}
-
-.number{
-    font-family: FTYOverKillMachinedNC;
-    font-size: 70px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
+    line-height: 1.5;
     letter-spacing: normal;
     text-align: left;
     color: #fff;
+    }
+
+    .left-col{
+        font-size: 17px;
+        padding: 20px 35px 0px 35px;
+        width: 10rem;
+    }
+
+    .right-col{
+        font-size: 17px;
+        padding: 20px 35px 0px 35px;
+        width: 10rem;
+    }
+
+    .Rectangle-numbers {
+        padding: 25px 15px 33px 15px; 
+        margin-top: 5%;
+        margin-left: 13%;
+        margin-right: 13%;
+        color: white;
+        border: solid 1px #707070;
+    }
+
+    .number{
+        font-family: FTYOverKillMachinedNC;
+        font-size: 70px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+    }
+
+    .label{
+        opacity: 0.8;
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+    }
+
+    .Founding-team {
+        margin-top: 6rem;
+        font-family: FTYOverKillMachinedNC;
+        font-size: 50px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+    }
+
+    .Founding-team-content{
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+    }
+
+    .image-container{
+        position: relative;
+        height: 20rem;
+    }
+
+    .founder-image-bg{
+        position: absolute;
+        top: 50px;
+        left: 4px;
+        height: 200px;
+        width: 250px;
+    }
+
+    .founder-image{
+        height: 250px;
+        width: 250px;
+        position: absolute;
+    }
+
+    .member-name{
+        position: absolute;
+        top: 269px;
+        left: 44px;
+        opacity: 0.8;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.18;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+    }
+
+    .member-designation{
+        position: absolute;
+        top: 310px;
+        left: 71px;
+        opacity: 0.56;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+    }
+
+    .join-us-content {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+    }
+
+    .join-us-button {
+        font-size: 25px;
+        color: white;
+        padding: 9px 40px 9px 40px;
+        background-image: linear-gradient(to right, #21f5fc 0%, #b241f2 99%);
+    }
+
+    .Roadmap{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
 }
 
-.label{
-    opacity: 0.8;
+@media only screen and (max-width: 767px) {
+    .aboutus{
+        background-color: black;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .aboutus-rectangle {
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 2rem;
+        width: 119px;
+        height: 28px;
+        padding: 2px 9px 2px 13px;
+        color: #fff;
+        background-image: linear-gradient(89deg, #21f5fc -47%, #b241f2 99%);
+    }
+
+    .Head {
+        margin-top: 1rem;
+        font-family: FTYOverKillMachinedNC;
+        font-size: 32px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+    }
+
+    .content{
     font-family: Poppins;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: normal;
     font-stretch: normal;
     font-style: normal;
+    line-height: 1.5;
     letter-spacing: normal;
     text-align: left;
     color: #fff;
-}
+    }
 
-.Founding-team {
-    margin-top: 6rem;
-    font-family: FTYOverKillMachinedNC;
-    font-size: 50px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.2;
-    letter-spacing: normal;
-    text-align: center;
-    color: #fff;
-}
+    .left-col{
+        word-wrap: break-word;
+        font-size: 15px;
+        width: 100%;
+    }
 
-.Founding-team-content{
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.67;
-    letter-spacing: normal;
-    text-align: center;
-    color: #fff;
-}
+    .right-col{
+        font-size: 15px;
+        width: 100%;
+    }
 
-.image-container{
-    position: relative;
-    height: 20rem;
-}
+    .Rectangle-numbers {
+        padding: 10px 5px 10px 5px;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        color: white;
+        border: solid 1px #707070;
+    }
 
-.founder-image-bg{
-    position: absolute;
-    top: 50px;
-    left: 4px;  
-}
+    .number{
+        font-family: FTYOverKillMachinedNC;
+        font-size: 30px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+    }
 
-.founder-image{
-    position: absolute;
-}
+    .label{
+        opacity: 0.8;
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+    }
 
-.member-name{
-    position: absolute;
-    top: 269px;
-    left: 44px;
-    opacity: 0.8;
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.18;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
-}
+    .Founding-team {
+        margin-top: 6rem;
+        font-family: FTYOverKillMachinedNC;
+        font-size: 50px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+    }
 
-.member-designation{
-    position: absolute;
-    top: 310px;
-    left: 71px;
-    opacity: 0.56;
-    font-family: Poppins;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
-}
+    .Founding-team-content{
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+    }
 
-.join-us-content {
-    font-family: Poppins;
-    font-size: 24px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.67;
-    letter-spacing: normal;
-    text-align: center;
-    color: #fff;
-}
+    .image-container{
+        position: relative;
+        height: 16rem;
+    }
 
-.join-us-head {
-    font-family: FTYOverKillMachinedNC;
-    font-size: 50px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.2;
-    letter-spacing: normal;
-    text-align: center;
-    color: #fff;
-}
+    .founder-image-bg{
+        position: absolute;
+        top: 0%;
+        left: 25%;
+        height: 145px;
+        width: 145px;
+    }
 
-.join-us-content{
-    width: 45rem;
-    font-family: Poppins;
-    font-size: 24px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.67;
-    letter-spacing: normal;
-    text-align: center;
-    color: #fff;
-}
+    .founder-image{
+        top: -25px;
+        left: 92px;
+        height: 170px;
+        width: 170px;
+        position: absolute;
+    }
 
-.join-us-button {
-    font-size: 25px;
-    color: white;
-    padding: 9px 40px 9px 40px;
-    background-image: linear-gradient(to right, #21f5fc 0%, #b241f2 99%);
-}
+    .member-name{
+        position: absolute;
+        top: 147px;
+        left: 83px;
+        opacity: 0.8;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.18;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+    }
 
-.Roadmap{
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
+    .member-designation{
+        position: absolute;
+        top: 180px;
+        left: 118px;
+        opacity: 0.56;
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+    }
 
-.Roadmap-head {
-    font-family: FTYOverKillMachinedNC;
-    font-size: 50px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.2;
-    letter-spacing: normal;
-    text-align: center;
-    color: #fff;
-  }
+    .join-us-content {
+        width: 21rem;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+    }
+
+    .join-us-button {
+        font-size: 16px;
+        color: white;
+        padding: 10px 30px 10px 30px;
+        background-image: linear-gradient(to right, #21f5fc 0%, #b241f2 99%);
+    }
+
+    .Roadmap{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}

@@ -13,41 +13,41 @@ export default function Teams() {
                    
                     <div className="team-images">
                         <div className="row mt-5 justify-content-around">
-                            <div className="col-12 col-sm-3 image-container">
-                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder-bg.png'} height="200px" width="200px" className="founder-image-bg"></img>
-                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder.png'} height="250px" width="250px"  className="founder-image"></img>
+                            <div className="col-md-3 image-container">
+                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder-bg.png'} className="founder-image-bg"></img>
+                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder.png'}  className="founder-image"></img>
                                 <div className="member-name">Abhay Aggrawal</div>
                                 <div className="member-designation">CEO & Founder</div>
                             </div>
-                            <div className="col-12 col-sm-3 image-container">
-                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder-bg.png'} height="200px" width="200px" className="founder-image-bg"></img>
-                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder.png'} height="250px" width="250px"  className="founder-image"></img>
+                            <div className="col-md-3 image-container">
+                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder-bg.png'} className="founder-image-bg"></img>
+                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder.png'}  className="founder-image"></img>
                                 <div className="member-name">Abhay Aggrawal</div>
                                 <div className="member-designation">CEO & Founder</div>
                             </div>
-                            <div className="col-12 col-sm-3 image-container">
-                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder-bg.png'} height="200px" width="200px" className="founder-image-bg"></img>
-                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder.png'} height="250px" width="250px"  className="founder-image"></img>
+                            <div className="col-md-3 image-container">
+                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder-bg.png'} className="founder-image-bg"></img>
+                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder.png'}  className="founder-image"></img>
                                 <div className="member-name">Abhay Aggrawal</div>
                                 <div className="member-designation">CEO & Founder</div>
                             </div>
                         </div>
                         <div className="row mt-5 justify-content-around">
-                            <div className="col-12 col-sm-3 image-container">
-                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder-bg.png'} height="200px" width="200px" className="founder-image-bg"></img>
-                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder.png'} height="250px" width="250px"  className="founder-image"></img>
+                            <div className="col-md-3 image-container">
+                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder-bg.png'} className="founder-image-bg"></img>
+                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder.png'}  className="founder-image"></img>
                                 <div className="member-name">Abhay Aggrawal</div>
                                 <div className="member-designation">CEO & Founder</div>
                             </div>
-                            <div className="col-12 col-sm-3 image-container">
-                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder-bg.png'} height="200px" width="200px" className="founder-image-bg"></img>
-                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder.png'} height="250px" width="250px"  className="founder-image"></img>
+                            <div className="col-md-3 image-container">
+                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder-bg.png'} className="founder-image-bg"></img>
+                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder.png'}  className="founder-image"></img>
                                 <div className="member-name">Abhay Aggrawal</div>
                                 <div className="member-designation">CEO & Founder</div>
                             </div>
-                            <div className="col-12 col-sm-3 image-container">
-                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder-bg.png'} height="200px" width="200px" className="founder-image-bg"></img>
-                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder.png'} height="250px" width="250px"  className="founder-image"></img>
+                            <div className="col-md-3 image-container">
+                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder-bg.png'} className="founder-image-bg"></img>
+                                <img alt="" src={process.env.PUBLIC_URL + '/images/founder.png'}  className="founder-image"></img>
                                 <div className="member-name">Abhay Aggrawal</div>
                                 <div className="member-designation">CEO & Founder</div>
                             </div>
