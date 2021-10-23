@@ -125,6 +125,27 @@ const BlogDetail = () => {
                         </div>
                     </div>
                 </div>
+                <div className="related-container-sm">
+                    <div class="Related-Articles">Related Articles:</div>
+                    <div className="row my-2">
+                        <div class="Rectangle-286"></div>
+                        <div class="Indias-Regulatory">
+                            India's Regulatory Journey summarised and the role of Supreme Court in it.
+                        </div>
+                    </div>
+                    <div className="row my-2">
+                        <div class="Rectangle-286"></div>
+                        <div class="Indias-Regulatory">
+                            India's Regulatory Journey summarised and the role of Supreme Court in it.
+                        </div>
+                    </div>
+                    <div className="row my-2">
+                        <div class="Rectangle-286"></div>
+                        <div class="Indias-Regulatory">
+                            India's Regulatory Journey summarised and the role of Supreme Court in it.
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )

@@ -400,6 +400,11 @@
   }
 
   .related-container{
+    display: block;
+    margin-bottom: 6rem;
+  }
+  .related-container-sm{
+    display: none;
     margin-bottom: 6rem;
   }
 
@@ -849,6 +854,11 @@
   }
 
   .related-container{
+    display: none;
+    margin-bottom: 6rem;
+  }
+  .related-container-sm{
+    display: block;
     margin-bottom: 6rem;
   }
 
