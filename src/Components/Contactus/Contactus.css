@@ -1,146 +1,301 @@
-textarea:focus{
-    outline: none;
+@media only screen and (min-width: 768px ) {
+    textarea:focus{
+        outline: none;
+    }
+
+    .contact-us-container{
+        background-color: black;
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-bottom: 8%;
+    }
+
+    .contact-us {
+        padding-top: 2rem;
+        font-family: FTYOverKillMachinedNC;
+        font-size: 50px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.8;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+    }
+
+    .underline {
+        width: 93px;
+        height: 9px;
+        background-color: #fff;
+    }
+
+    .contact-us-content {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 32rem;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+    }
+
+    .divider {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        height: 0;
+        border: solid 1px #707070;
+    }
+
+    .contact-form{
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact-us-container input {
+        width: 100%;
+        height: 60px;
+        padding: 0 25px;
+        border: solid 2px #232323;
+        background-color: #0f0f0f;
+        color: #fff;
+    }
+
+    .contact-us-container button {
+        border: none;
+        color: white;
+        padding: 15px 67px 14px;
+        background-image: linear-gradient(123deg, #21f5fc -92%, #b241f2 67%);
+    }
+
+    .input-label {
+        opacity: 0.52;
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 4;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+    }
+
+    .long-input{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .contact-us-container textarea {
+        width: 100%;
+        padding: 15px 25px;
+        border: solid 2px #232323;
+        background-color: #0f0f0f;
+        color: #fff;
+    }
+
+    .submit-button{
+        margin-left: -0.2rem;
+        margin-top: 2rem;
+    }
+
+    .get-in-touch-container{
+        width: 100%;
+        padding: 2rem 2rem 2rem 5rem;
+        border: solid 2px #232323;
+        background-color: #0f0f0f;
+    }
+
+    .get-in-touch {
+        font-family: FTYOverKillMachinedNC;
+        font-size: 35px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.8;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+    }
+
+    .email-container{
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+
+    img.Icon-material-mail {
+        width: 32.9px;
+        height: 26.3px;
+        object-fit: contain;
+    }
+
+    .colexion-email {
+        margin-left: 1rem;
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+    }
 }
 
-.contact-us-container{
-    background-color: black;
-    padding-left: 25%;
-    padding-right: 25%;
-    padding-bottom: 8%;
-}
+@media only screen and (max-width: 767px) {
+    textarea:focus{
+        outline: none;
+    }
 
-.contact-us {
-    padding-top: 2rem;
-    font-family: FTYOverKillMachinedNC;
-    font-size: 50px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.8;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
-}
+    .contact-us-container{
+        background-color: black;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 8%;
+    }
 
-.underline {
-    width: 93px;
-    height: 9px;
-    background-color: #fff;
-}
+    .contact-us {
+        padding-top: 2rem;
+        font-family: FTYOverKillMachinedNC;
+        font-size: 25px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.8;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+    }
 
-.contact-us-content {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    width: 32rem;
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
-}
+    .underline {
+        width: 40px;
+        height: 7px;
+        background-color: #fff;
+    }
 
-.divider {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    height: 0;
-    border: solid 1px #707070;
-}
+    .contact-us-content {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 14rem;
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+    }
 
-.contact-form{
-    margin-top: 4rem;
-    margin-bottom: 2rem;
-}
+    .divider {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        height: 0;
+        border: solid 1px #707070;
+    }
 
-.contact-us-container input {
-    width: 100%;
-    height: 60px;
-    padding: 0 25px;
-    border: solid 2px #232323;
-    background-color: #0f0f0f;
-    color: #fff;
-}
+    .contact-form{
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
 
-.contact-us-container button {
-    border: none;
-    color: white;
-    padding: 15px 67px 14px;
-    background-image: linear-gradient(123deg, #21f5fc -92%, #b241f2 67%);
-}
+    .contact-us-container input {
+        width: 100%;
+        height: 45px;
+        font-size: 10px;
+        padding: 0px 10px;
+        border: solid 2px #232323;
+        background-color: #0f0f0f;
+        color: #fff;
+    }
 
-.input-label {
-    opacity: 0.52;
-    font-family: Poppins;
-    font-size: 15px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 4;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
-}
+    .contact-us-container button {
+        border: none;
+        color: white;
+        padding: 8px 30px 8px;
+        background-image: linear-gradient(123deg, #21f5fc -92%, #b241f2 67%);
+    }
 
-.long-input{
-    padding-left: 10px;
-    padding-right: 10px;
-}
+    .input-label {
+        opacity: 0.52;
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+        margin-top: 1rem;
+    }
 
-.contact-us-container textarea {
-    width: 100%;
-    padding: 15px 25px;
-    border: solid 2px #232323;
-    background-color: #0f0f0f;
-    color: #fff;
-}
+    .long-input{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
-.submit-button{
-    margin-left: -0.2rem;
-    margin-top: 2rem;
-}
+    .contact-us-container textarea {
+        width: 100%;
+        padding: 10px 10px;
+        font-size: 10px;
+        border: solid 2px #232323;
+        background-color: #0f0f0f;
+        color: #fff;
+    }
 
-.get-in-touch-container{
-    width: 100%;
-    padding: 2rem 2rem 2rem 5rem;
-    border: solid 2px #232323;
-    background-color: #0f0f0f;
-}
+    .submit-button{
+        margin-left: -0.2rem;
+        margin-top: 2rem;
+    }
 
-.get-in-touch {
-    font-family: FTYOverKillMachinedNC;
-    font-size: 35px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.8;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
-}
+    .get-in-touch-container{
+        width: 100%;
+        padding: 1rem 1rem 1rem 2rem;
+        border: solid 2px #232323;
+        background-color: #0f0f0f;
+        margin-left: -4px;
+    }
 
-.email-container{
-    margin-top: 3rem;
-    margin-left: 1rem;
-}
+    .get-in-touch {
+        font-family: FTYOverKillMachinedNC;
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.8;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+    }
 
-img.Icon-material-mail {
-    width: 32.9px;
-    height: 26.3px;
-    object-fit: contain;
-}
+    .email-container{
+        margin-top: 1rem;
+        margin-left: -4px;
+    }
 
-.colexion-email {
-    margin-left: 1rem;
-    font-family: Poppins;
-    font-size: 25px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.1;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
+    img.Icon-material-mail {
+        width: 25.9px;
+        height: 14.3px;
+        object-fit: contain;
+    }
+
+    .colexion-email {
+        margin-left: 0.5rem;
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+    }
 }

@@ -15,11 +15,11 @@ const Contactus = () => {
                 <div className="divider"></div>
                 <form className="contact-form">
                     <div className="row">
-                        <div className="col-6">
+                        <div className="col-md-6">
                             <label for="name" className="input-label">Name(Required)</label>
                             <input id="name"placeholder="Name" type="text"></input>
                         </div>
-                        <div className="col-6">
+                        <div className="col-md-6">
                         <label for="email" className="input-label">Email(Required)</label>
                             <input id="email" placeholder="Email" type="email"></input>
                         </div>
