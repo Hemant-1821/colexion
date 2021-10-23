@@ -8,14 +8,14 @@ const BlogDetail = () => {
             <div className="container">
                 <div className="row section">
                     <Link className="row back-container" to="/blog">
-                        <img alt="" src={process.env.PUBLIC_URL + '/images/blog/left-arrow.png'} height="35px" width="30px"/>
+                        <img className="back-img" alt="" src={process.env.PUBLIC_URL + '/images/blog/left-arrow.png'}/>
                         <p className="back">BACK</p>
                     </Link>
                     <div className="row">
-                        <div className="col-6">
-                            <img src={process.env.PUBLIC_URL + '/images/blog/lady.png'} alt="" height="420px" width="550px" />
+                        <div className="col-md-6">
+                            <img className="blog-detail-img" src={process.env.PUBLIC_URL + '/images/blog/lady.png'} alt="" />
                         </div>
-                        <div className="col-6">
+                        <div className="col-md-6">
                             <p className="details-Wallets">MARKETS</p>
                             <p className="Which-Indian-Detail">Which Indian celebrities are showing interest in NFT</p>
                             <div class="By-Rohan-Hada">By Rohan Hada</div>
