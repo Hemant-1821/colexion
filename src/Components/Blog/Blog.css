@@ -316,6 +316,8 @@
   .btc-img{
     margin-top: 2rem;
     margin-bottom: 2rem;
+    height: 250px;
+    width: 350px;
   }
 
   .Rectangle-284 {
@@ -581,8 +583,8 @@
   .blog_detail{
       background-color: #fff;
       padding-top: 5%;
-      margin-left: 15%;
-      margin-right: 15%;
+      margin-left: 10%;
+      margin-right: 12%;
   }
 
   .back-container{
@@ -686,7 +688,7 @@
   }
 
   .How-Artists-are-gaining-exposure-from-NFTs {
-    font-size: 29px;
+    font-size: 25px;
     font-weight: 1000;
     font-stretch: normal;
     font-style: normal;
@@ -696,9 +698,9 @@
   }
 
   .If-you-are-an-Artist{
-    margin-top: 3rem;
+    margin-top: 1rem;
     font-family: Poppins;
-    font-size: 22px;
+    font-size: 15px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -710,7 +712,7 @@
   .Editor-Wallets {
     opacity: 0.7;
     font-family: Poppins;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
@@ -721,7 +723,7 @@
 
   .What-is-Ripple-The-Journey-from-a-Money-Transfer-Platform {
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 900;
     font-stretch: normal;
     font-style: normal;
@@ -735,13 +737,13 @@
     height: 0;
     opacity: 0.17;
     border: solid 1px #8b9dbf;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   .Will-NFT-culture-survive-or-will-the-bubble-burst {
     font-family: Poppins;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -764,17 +766,19 @@
   .btc-img{
     margin-top: 2rem;
     margin-bottom: 2rem;
+    height: 250px;
+    width: 270px;
   }
 
   .Rectangle-284 {
-    width: 24px;
-    height: 24px;
+    width: 10px;
+    height: 10px;
     background-image: linear-gradient(160deg, #21f5fc -27%, #b241f2 87%);
   }
 
   .Engaging-with-NFT-Community {
-    margin-left: 25px;
-    font-size: 29px;
+    margin-left: 7px;
+    font-size: 15.5px;
     font-weight: 900;
     font-stretch: normal;
     font-style: normal;
@@ -785,19 +789,18 @@
   }
 
   .point-head{
-    margin-top: 5rem;
-    margin-bottom: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   .For-an-Artist {
-    margin-left: 53px;
-    margin-top: 10px;
+    margin-left: 25px;
     font-family: Poppins;
-    font-size: 22px;
+    font-size: 15px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.86;
+    line-height: 1.5;
     letter-spacing: 0.22px;
     text-align: left;
     color: #000;
@@ -810,8 +813,8 @@
   .Rectangle-283 {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    height: 12rem;
-    width: 46rem;
+    height: 10rem;
+    width: 270px;
     padding: 48px 67.2px 46.7px 56.5px;
     opacity: 0.1;
     background-image: linear-gradient(to bottom, #21f5fc, #b241f2);
@@ -819,7 +822,7 @@
 
   .To-catch-peoples {
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 15px;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
@@ -829,13 +832,13 @@
     color: #000;
     position: absolute;
     top: 23%;
-    margin-left: 68px;
+    margin-left: 28px;
   }
 
   .If-connecting {
-    margin-top: 4rem;
+    margin-top: 1rem;
     font-family: Poppins;
-    font-size: 22px;
+    font-size: 15px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -850,7 +853,7 @@
   }
 
   .Related-Articles {
-    font-size: 29px;
+    font-size: 20px;
     font-weight: 900;
     font-stretch: normal;
     font-style: normal;
@@ -861,24 +864,24 @@
   }
 
   .Rectangle-286 {
-    margin-top: 2rem;
+    margin-top: 1.7rem;
     margin-left: 1rem;
     margin-bottom: 2rem;
-    margin-right: 1rem;
+    margin-right: 0.8rem;
     width: 11.6px;
     height: 11.6px;
     background-image: linear-gradient(157deg, #21f5fc -58%, #b241f2 85%);
   }
 
   .Indias-Regulatory {
-    width: 44rem;
+    width: 15rem;
     margin-top: 1.5rem;
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.32;
+    line-height: 1.3;
     letter-spacing: 0.22px;
     text-align: left;
     color: #333;

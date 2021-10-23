@@ -6,27 +6,27 @@ const BlogDetail = () => {
     return(
         <div className="blog_detail">
             <div className="container">
-                <div className="row section">
+                <div className="row">
                     <Link className="row back-container" to="/blog">
                         <img className="back-img" alt="" src={process.env.PUBLIC_URL + '/images/blog/left-arrow.png'}/>
                         <p className="back">BACK</p>
                     </Link>
-                    <div className="row">
-                        <div className="col-md-6">
-                            <img className="blog-detail-img" src={process.env.PUBLIC_URL + '/images/blog/lady.png'} alt="" />
-                        </div>
-                        <div className="col-md-6">
-                            <p className="details-Wallets">MARKETS</p>
-                            <p className="Which-Indian-Detail">Which Indian celebrities are showing interest in NFT</p>
-                            <div class="By-Rohan-Hada">By Rohan Hada</div>
-                            <div class="September-16-2022">September 16, 2022</div>
-                            <div class="Last-update-on-September-16-2022">Last update on: September 16, 2022</div>
-                        </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-6">
+                        <img className="blog-detail-img" src={process.env.PUBLIC_URL + '/images/blog/lady.png'} alt="" />
+                    </div>
+                    <div className="col-md-6">
+                        <p className="details-Wallets">MARKETS</p>
+                        <p className="Which-Indian-Detail">Which Indian celebrities are showing interest in NFT</p>
+                        <div class="By-Rohan-Hada">By Rohan Hada</div>
+                        <div class="September-16-2022">September 16, 2022</div>
+                        <div class="Last-update-on-September-16-2022">Last update on: September 16, 2022</div>
                     </div>
                 </div>
                 <div class="Line-21"></div>
                 <div className="row">
-                    <div className="col-8">
+                    <div className="col-md-8">
                         <div class="How-Artists-are-gaining-exposure-from-NFTs">
                             How Artists are gaining exposure from NFTs?
                         </div>
@@ -94,7 +94,7 @@ const BlogDetail = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-4">
+                    <div className="col-md-4">
                         <div class="Editor-Wallets">EDITOR'S CHOICE</div>
                         <div class="What-is-Ripple-The-Journey-from-a-Money-Transfer-Platform">
                             What is Ripple: The Journey from a Money Transfer Platform
@@ -117,11 +117,11 @@ const BlogDetail = () => {
                         </div>
                         <div class="Line-16"></div>
                         <div class="NFTs-is-Booming">NFTs is Booming</div>
-                        <div className="btc-img">
-                            <img src={process.env.PUBLIC_URL + '/images/blog/BTC.png'} alt="" height="250px" width="350px" />
+                        <div>
+                            <img className="btc-img" src={process.env.PUBLIC_URL + '/images/blog/BTC.png'} alt=""  />
                         </div>
-                        <div className="btc-img">
-                            <img src={process.env.PUBLIC_URL + '/images/blog/simpler.png'} alt="" height="250px" width="350px" />
+                        <div>
+                            <img className="btc-img" src={process.env.PUBLIC_URL + '/images/blog/simpler.png'} alt=""/>
                         </div>
                     </div>
                 </div>
