@@ -207,4 +207,7 @@
     .videoBx iframe{
         height: 300px;
     }
+    img.comboRays {
+        max-width: 250px;
+    }
 }
