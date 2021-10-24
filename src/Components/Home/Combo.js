@@ -68,6 +68,7 @@ const Combo = (props) => {
                     </Slider>
                 </div>
             </div>
+            <img src={process.env.PUBLIC_URL + '/images/rays.svg'} alt="" className="comboRays" />
         </section>
     )
 }

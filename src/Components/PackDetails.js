@@ -1,20 +1,12 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { Link } from 'react-router-dom';
-//import Slider from "react-slick";
 import Combo from './Home/Combo';
 
 const PackDetails = () => {
-    // var settings = {
-    //     className: "center",
-    //     centerMode: true,
-    //     infinite: true,
-    //     centerPadding: "60px",
-    //     slidesToShow: 3,
-    //     dots:false,
-    //     autoplay: true,
-    //     nav:false,
-    //     speed: 500
-    // };
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <React.Fragment>
             <section className="dark customSec pt-4">

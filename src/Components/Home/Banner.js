@@ -39,9 +39,9 @@ const HomeBanner = () => {
                     <div className="bannerImgAnimation">
                         <img src={process.env.PUBLIC_URL + '/images/homepage/infinite.svg'} alt="" />
                     </div>
-                    {/* <div className="bannerImgFlash">
-                        <img src={process.env.PUBLIC_URL + '/images/homepage/social/metro-facebook.svg'} alt="" />
-                    </div> */}
+                    <div className="bannerImgFlash">
+                        <img src={process.env.PUBLIC_URL + '/images/rays.svg'} alt="" className="bannerRays" />
+                    </div> 
                 </div>
                 <div className="bannerSocial">
                     <ul className="list-inline">
