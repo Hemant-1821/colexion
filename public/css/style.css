@@ -264,13 +264,14 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
 
 .customBtn2 {
     display: block;
-    padding: 10px 40px;
+    padding: 10px 15px;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     position: relative;
     z-index: 1;
     transition: all 500ms ease;
+    text-transform: uppercase;
 }
 .customBtn2 i{
     background: linear-gradient(to right, #21f5fc 0%, #b241f2 99%);

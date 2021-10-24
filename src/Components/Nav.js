@@ -28,34 +28,34 @@ const Nav = (props) => {
                 </button>
                 <div className={activeClass?"collapse navbar-collapse active":"collapse navbar-collapse"} id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
-                        <li className="nav-item active">
+                        <li className="nav-item" onClick={mobileToggle}>
                             <Link className="nav-link" to="/">Home</Link>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item" onClick={mobileToggle}>
                             <Link className="nav-link" to="/aboutus">About Us</Link>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item" onClick={mobileToggle}>
                             <Link className="nav-link" to="/">
                                 <span>Coming Soon</span>
                                 Marketplace
                             </Link>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item" onClick={mobileToggle}>
                             <Link className="nav-link" to="/">
                                 <span>Coming Soon</span>
                                 Museum
                             </Link>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item" onClick={mobileToggle}>
                             <Link className="nav-link" to="/blog">Blog</Link>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item" onClick={mobileToggle}>
                             <Link className="nav-link customBtn" to="/">Join Waitlist</Link>
                         </li>
                         <li className="nav-item">
                             <Link onClick={loginModalHandler} className="nav-link" to="/">Sign in</Link>
                         </li>
-                        <li className="nav-item colorSwitcher">
+                        <li className="nav-item colorSwitcher" onClick={mobileToggle}>
                             {/* {
                                 switcher ?
                                 <Link className="nav-link" to="/" onClick={darkColorSwitcher}>

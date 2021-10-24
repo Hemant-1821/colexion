@@ -150,7 +150,7 @@
     }
     
     .customSec {
-        padding: 50px 0;
+        padding: 35px 0;
     }
     .productDetailsCard {
         width: 100%;
@@ -174,5 +174,21 @@
     }
     .modalInr {
         width: 350px;
+    }
+    .homeVideo, .scroller .slick-slider {
+        padding: 0;
+    }
+    .carousel.carousel-slider .control-arrow, .faqScroll .slick-arrow, .slick-arrow {
+        z-index: 9 !important;
+    }
+    .carousel.carousel-slider .control-arrow , .faqScroll .slick-arrow.slick-prev{
+        left: 0 !important;
+    }
+    
+    .carousel.carousel-slider .control-arrow.control-next {
+        right: 0 !important;
+    }
+    .videoBx iframe{
+        height: 300px;
     }
 }
