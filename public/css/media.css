@@ -44,7 +44,12 @@
         max-width: 250px;
     }
     
-    .bannerImg {top: 50px;}
+    .bannerImg {
+        top: 50px;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+    }
     
     .homeBanner {
         padding-top: 350px;
@@ -54,8 +59,11 @@
     }
     
     .bannerImgFlash {
-        right: 20px;
+        right: auto;
         bottom: -100px;
+        left: 50%;
+        transform: translateX(-50%);
+        min-width: 300px;
     }
     .updatesWrp {
         margin-top: 50px;
