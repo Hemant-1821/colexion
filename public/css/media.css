@@ -47,7 +47,15 @@
     .bannerImg {top: 50px;}
     
     .homeBanner {
-        padding-top: 280px;
+        padding-top: 350px;
+    }
+    .bannerImgFlash img.bannerRays {
+        max-width: 100%;
+    }
+    
+    .bannerImgFlash {
+        right: 20px;
+        bottom: -100px;
     }
     .updatesWrp {
         margin-top: 50px;
