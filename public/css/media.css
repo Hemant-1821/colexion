@@ -178,6 +178,11 @@
         right: 0;
     }
 }
+@media only screen and (max-width:991px) and (min-width:768px){
+    .videoFrame1 iframe {
+        height: 410px;
+    }
+}
 @media only screen and (max-width:991px){
     #moblieToggle {
         color: #56d1f9;
