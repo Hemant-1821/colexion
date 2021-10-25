@@ -13,7 +13,7 @@ const Partners = () => {
                     </div>
                     <div className="partnersList">
                         <Link to="/">
-                            <img src={process.env.PUBLIC_URL + '/images/partners/polygon.png'} alt="" />
+                            <img height="70px" width="140px" src={process.env.PUBLIC_URL + '/images/partners/polygon.png'} alt="" />
                         </Link>
                         <Link to="/">
                             <img src={process.env.PUBLIC_URL + '/images/partners/bastionex.png'} alt="" />
