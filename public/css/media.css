@@ -1,3 +1,171 @@
+@media only screen and (max-width:1024px) and (min-width:991px){
+    .carousel.carousel-slider .control-arrow, .faqScroll .slick-arrow, .slick-arrow{
+        left: -30px !important;
+        z-index: 1;
+    }
+    .carousel.carousel-slider .control-arrow.control-next, .slick-arrow.slick-next{
+        right: -30px !important;
+    }
+    #myNav ul li a {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    
+    #myNav ul li a span {
+        font-size: 8px;
+    }
+}
+@media only screen and (max-width:1024px) and (min-width:768px){
+    .bannerImgAnimation img {
+        max-width: 250px;
+    }
+    .bannerSocial {
+        right: 30px;
+    }
+    .homeBanner {
+        padding: 50px 0;
+    }
+    
+    .updatesWrp .listInline {
+        flex-wrap: wrap;
+    }
+    
+    .updatesWrp .listInline li {
+        margin-bottom: 5px;
+    }
+    
+    .updatesWrp .listInline li.d-flex {
+        border-left: none;
+        padding: 0;
+    }
+    
+    .updatesWrp {
+        padding: 25px;
+    }
+    
+    .shopCategoryBx {
+        min-width: 25%;
+        margin-bottom: 0;
+        background-size: 100% 100%;
+    }
+    
+    .shopCategoryList {
+        flex-wrap: wrap;
+    }
+    
+    .bannerContent h1 {
+        font-size: 44px;
+    }
+    
+    .bannerImg {
+        right: 70px;
+    }
+    
+    .homeVideo iframe {
+        height: 450px;
+    }
+    
+    .sectionHeading h2 {
+        font-size: 36px;
+    }
+    
+    .museum h3, .aboutUs h3 {
+        font-size: 16px;
+    }
+    .slideImg {
+        margin: 0 5px;
+    }
+    
+    .slideImg img {
+        max-width: 200px;
+    }
+    
+    .slideContent {
+        width: calc(100% - 40px);
+        left: 20px;
+    }
+    
+    .slideContent h3 {
+        font-size: 20px;
+    }
+    
+    .footerBottom {
+        flex-wrap: wrap;
+    }
+    
+    .footerBottom .list-inline.footerDetails li {
+        margin: 0 0 10px;
+    }
+    
+    .footerBottom .list-inline.footerDetails {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .footerBottom .list-inline.footerDetails li span {
+        font-size: 14px;
+    }
+    
+    .subscribeBx {
+        padding: 70px;
+    }
+    
+    .subscribeForm form {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .subscribeForm form button {
+        margin-top: 0px;
+    }
+    .bx h3 {
+        font-size: 24px;
+    }
+    
+    .bx p {
+        font-size: 14px;
+    }
+    .videoFrame, .videoFrame1 {
+        padding: 7px;
+        padding-right: 3px;
+    }
+    .videoFrame1 iframe {
+        height: 350px;
+    }
+    .videoFrame iframe {
+        height: 300px;
+    }
+    .shopCategoryBx img {
+        max-width: 70px;
+        height: 100px;
+    }
+    
+    .shopCategoryBx h4 {
+        font-size: 16px;
+    }
+    .faqSlideContent {
+        min-height: 460px;
+    }
+    
+    .faqScroll .slick-arrow.slick-prev {
+        left: 0px !important;
+    }
+    .founder-image {
+        width: calc(100% - 30px);
+        object-fit: cover;
+    }
+    
+    img.founder-image-bg {
+        width: calc(100% - 30px);
+    }
+    
+    .member-name-row {
+        left: 10px;
+        top: 260px;
+    }
+}
 @media only screen and (max-width:991px){
     #moblieToggle {
         color: #56d1f9;

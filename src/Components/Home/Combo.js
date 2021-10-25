@@ -21,10 +21,11 @@ const Combo = (props) => {
         speed: 500,
         responsive: [
             {
-              breakpoint: 768,
+              breakpoint: 991,
               settings: {
                 slidesToShow: 2,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                centerMode: false
               }
             },
             {

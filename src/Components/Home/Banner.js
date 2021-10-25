@@ -8,7 +8,7 @@ const HomeBanner = () => {
             <section className="homeBanner">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-7 col-12">
+                        <div className="col-lg-7 col-sm-7 col-12">
                             <div className="bannerContent">
                                 <h3>INFINITY BEGINS HERE</h3>
                                 <h1>OWN PRIME NFTs COLLECTION</h1>

@@ -12,7 +12,7 @@ export default function Teams() {
                 </div>    
                 <div className="team-images">
                     <div className="row mt-5 justify-content-around">
-                        <div className="col-md-3 image-container">
+                        <div className="col-lg-3 col-md-4 image-container">
                             <img alt="" src={process.env.PUBLIC_URL + '/images/founder-bg.png'} className="founder-image-bg"></img>
                             <img alt="" src={process.env.PUBLIC_URL + '/images/founder.png'}  className="founder-image"></img>
                             <div className="row member-name-row justify-content-center">
@@ -20,7 +20,7 @@ export default function Teams() {
                                 <div className="member-designation">Investor & Advisor</div>
                             </div>
                         </div>
-                        <div className="col-md-3 image-container">
+                        <div className="col-lg-3 col-md-4 image-container">
                             <img alt="" src={process.env.PUBLIC_URL + '/images/founder-bg.png'} className="founder-image-bg"></img>
                             <img alt="" src={process.env.PUBLIC_URL + '/images/founder.png'}  className="founder-image"></img>
                             <div className="row member-name-row justify-content-center">
@@ -28,7 +28,7 @@ export default function Teams() {
                                 <div className="member-designation">CEO & Founder</div>
                             </div>
                         </div>
-                        <div className="col-md-3 image-container">
+                        <div className="col-lg-3 col-md-4 image-container">
                             <img alt="" src={process.env.PUBLIC_URL + '/images/founder-bg.png'} className="founder-image-bg"></img>
                             <img alt="" src={process.env.PUBLIC_URL + '/images/founder.png'}  className="founder-image"></img>
                             <div className="row member-name-row justify-content-center">
