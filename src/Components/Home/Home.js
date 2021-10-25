@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Teams from '../Teams';
 import About from './About';
 import HomeBanner from './Banner';
@@ -14,6 +14,10 @@ import Speciality from './Speciality';
 import Video from './Video';
 
 const Home = (props) => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     
     return (
         <React.Fragment>
