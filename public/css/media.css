@@ -4,7 +4,8 @@
         z-index: 1;
     }
     .carousel.carousel-slider .control-arrow.control-next, .slick-arrow.slick-next{
-        right: -30px !important;
+        right: -00px !important;
+        left: auto !important;
     }
     #myNav ul li a {
         font-size: 14px;
@@ -176,6 +177,9 @@
     
     .bannerImgFlash {
         right: 0;
+    }
+    .slideWrp {
+        padding: 0 10px 35px;
     }
 }
 @media only screen and (max-width:991px) and (min-width:768px){

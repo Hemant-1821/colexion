@@ -316,7 +316,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
 }
 .slideWrp {
     position: relative;
-    padding-bottom: 30px;
+    padding: 0 15px 30px;
 }
 
 .slideContent {
@@ -449,7 +449,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
 .faqSlideContent {
     padding: 60px 40px 50px;
     background: url(../images/homepage/know_about_nft.png) 0 0 no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     min-height: 340px;
 }
 
