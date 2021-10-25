@@ -28,21 +28,21 @@ const Blog = () => {
                 <div className="">
                     <div className="row blog-grid blog-right-col">
                         <div className="col-md-4">
-                            <img className="grid-img" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
+                            <img className="img-fluid" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
                             <p className="grid-Wallets">MARKETS</p>
                             <p className="grid-card-head">How Artists are gaining exposure from NFTs</p>
                             <p className="grid-content">How Artists are gaining exposure from NFTs? If you are an Artist and want to gain some exposure then you might want to gain attractions of people</p>
                             <p className="grid-Read-Article">Read Article <img className="grid-arrow-img" alt="" src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'}/></p>
                         </div>
                         <div className="col-md-4">
-                            <img className="grid-img" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
+                            <img className="img-fluid" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
                             <p className="grid-Wallets">MARKETS</p>
                             <p className="grid-card-head">How Artists are gaining exposure from NFTs</p>
                             <p className="grid-content">How Artists are gaining exposure from NFTs? If you are an Artist and want to gain some exposure then you might want to gain attractions of people</p>
                             <p className="grid-Read-Article">Read Article <img className="grid-arrow-img" alt="" src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'}/></p>
                         </div>
                         <div className="col-md-4">
-                            <img className="grid-img" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
+                            <img className="img-fluid" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
                             <p className="grid-Wallets">MARKETS</p>
                             <p className="grid-card-head">How Artists are gaining exposure from NFTs</p>
                             <p className="grid-content">How Artists are gaining exposure from NFTs? If you are an Artist and want to gain some exposure then you might want to gain attractions of people</p>
@@ -51,21 +51,21 @@ const Blog = () => {
                     </div>
                     <div className="row blog-grid blog-right-col">
                         <div className="col-md-4">
-                            <img className="grid-img" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
+                            <img className="img-fluid" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
                             <p className="grid-Wallets">MARKETS</p>
                             <p className="grid-card-head">How Artists are gaining exposure from NFTs</p>
                             <p className="grid-content">How Artists are gaining exposure from NFTs? If you are an Artist and want to gain some exposure then you might want to gain attractions of people</p>
                             <p className="grid-Read-Article">Read Article <img className="grid-arrow-img" alt="" src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'}/></p>
                         </div>
                         <div className="col-md-4">
-                            <img className="grid-img" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
+                            <img className="img-fluid" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
                             <p className="grid-Wallets">MARKETS</p>
                             <p className="grid-card-head">How Artists are gaining exposure from NFTs</p>
                             <p className="grid-content">How Artists are gaining exposure from NFTs? If you are an Artist and want to gain some exposure then you might want to gain attractions of people</p>
                             <p className="grid-Read-Article">Read Article <img className="grid-arrow-img" alt="" src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'}/></p>
                         </div>
                         <div className="col-md-4">
-                            <img className="grid-img" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
+                            <img className="img-fluid" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
                             <p className="grid-Wallets">MARKETS</p>
                             <p className="grid-card-head">How Artists are gaining exposure from NFTs</p>
                             <p className="grid-content">How Artists are gaining exposure from NFTs? If you are an Artist and want to gain some exposure then you might want to gain attractions of people</p>
@@ -76,7 +76,7 @@ const Blog = () => {
 
                 <div className="row blog-section blog-right-col">
                     <div className="col-md-6">
-                        <img className="blog-img" src={process.env.PUBLIC_URL + '/images/blog/lady.png'} alt="" />
+                        <img className="img-fluid" src={process.env.PUBLIC_URL + '/images/blog/lady.png'} alt="" />
                     </div>
                     <div className="col-md-6">
                         <p className="blog-Wallets">MARKETS</p>
@@ -91,21 +91,21 @@ const Blog = () => {
                 <div className="">
                     <div className="row blog-grid blog-right-col">
                         <div className="col-md-4">
-                            <img className="grid-img" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
+                            <img className="img-fluid" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
                             <p className="grid-Wallets">MARKETS</p>
                             <p className="grid-card-head">How Artists are gaining exposure from NFTs</p>
                             <p className="grid-content">How Artists are gaining exposure from NFTs? If you are an Artist and want to gain some exposure then you might want to gain attractions of people</p>
                             <p className="grid-Read-Article">Read Article <img className="grid-arrow-img" alt="" src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'}/></p>
                         </div>
                         <div className="col-md-4">
-                            <img className="grid-img" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
+                            <img className="img-fluid" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
                             <p className="grid-Wallets">MARKETS</p>
                             <p className="grid-card-head">How Artists are gaining exposure from NFTs</p>
                             <p className="grid-content">How Artists are gaining exposure from NFTs? If you are an Artist and want to gain some exposure then you might want to gain attractions of people</p>
                             <p className="grid-Read-Article">Read Article <img className="grid-arrow-img" alt="" src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'}/></p>
                         </div>
                         <div className="col-md-4">
-                            <img className="grid-img" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
+                            <img className="img-fluid" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
                             <p className="grid-Wallets">MARKETS</p>
                             <p className="grid-card-head">How Artists are gaining exposure from NFTs</p>
                             <p className="grid-content">How Artists are gaining exposure from NFTs? If you are an Artist and want to gain some exposure then you might want to gain attractions of people</p>
@@ -116,7 +116,7 @@ const Blog = () => {
 
                 <div className="row blog-section blog-right-col">
                     <div className="col-md-6">
-                        <img className="blog-img" src={process.env.PUBLIC_URL + '/images/blog/lady.png'} alt="" />
+                        <img className="img-fluid" src={process.env.PUBLIC_URL + '/images/blog/lady.png'} alt="" />
                     </div>
                     <div className="col-md-6">
                         <p className="blog-Wallets">MARKETS</p>
@@ -131,21 +131,21 @@ const Blog = () => {
                 <div className="">
                     <div className="row blog-grid blog-right-col">
                     <div className="col-md-4">
-                            <img className="grid-img" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
+                            <img className="img-fluid" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
                             <p className="grid-Wallets">MARKETS</p>
                             <p className="grid-card-head">How Artists are gaining exposure from NFTs</p>
                             <p className="grid-content">How Artists are gaining exposure from NFTs? If you are an Artist and want to gain some exposure then you might want to gain attractions of people</p>
                             <p className="grid-Read-Article">Read Article <img className="grid-arrow-img" alt="" src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'}/></p>
                         </div>
                         <div className="col-md-4">
-                            <img className="grid-img" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
+                            <img className="img-fluid" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
                             <p className="grid-Wallets">MARKETS</p>
                             <p className="grid-card-head">How Artists are gaining exposure from NFTs</p>
                             <p className="grid-content">How Artists are gaining exposure from NFTs? If you are an Artist and want to gain some exposure then you might want to gain attractions of people</p>
                             <p className="grid-Read-Article">Read Article <img className="grid-arrow-img" alt="" src={process.env.PUBLIC_URL + '/images/blog/right-arrow.png'}/></p>
                         </div>
                         <div className="col-md-4">
-                            <img className="grid-img" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
+                            <img className="img-fluid" src={process.env.PUBLIC_URL + '/images/blog/grid-1.png'} alt="" />
                             <p className="grid-Wallets">MARKETS</p>
                             <p className="grid-card-head">How Artists are gaining exposure from NFTs</p>
                             <p className="grid-content">How Artists are gaining exposure from NFTs? If you are an Artist and want to gain some exposure then you might want to gain attractions of people</p>
