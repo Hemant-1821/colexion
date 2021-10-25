@@ -175,4 +175,9 @@
     .modalInr {
         width: 350px;
     }
+    .aboutus-videoFrame{
+        background: url(../images/homepage/videoframe.svg) 0 0 no-repeat;
+        background-size: cover;
+        padding: 10px 23px 0px 0px;
+    }
 }
