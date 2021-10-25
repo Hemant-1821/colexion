@@ -44,10 +44,26 @@
         max-width: 250px;
     }
     
-    .bannerImg {top: 50px;}
+    .bannerImg {
+        top: 50px;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+    }
     
     .homeBanner {
-        padding-top: 280px;
+        padding-top: 350px;
+    }
+    .bannerImgFlash img.bannerRays {
+        max-width: 100%;
+    }
+    
+    .bannerImgFlash {
+        right: auto;
+        bottom: -100px;
+        left: 50%;
+        transform: translateX(-50%);
+        min-width: 300px;
     }
     .updatesWrp {
         margin-top: 50px;
@@ -150,7 +166,7 @@
     }
     
     .customSec {
-        padding: 50px 0;
+        padding: 35px 0;
     }
     .productDetailsCard {
         width: 100%;
@@ -179,5 +195,24 @@
         background: url(../images/homepage/videoframe.svg) 0 0 no-repeat;
         background-size: cover;
         padding: 10px 23px 0px 0px;
+    }
+    .homeVideo, .scroller .slick-slider {
+        padding: 0;
+    }
+    .carousel.carousel-slider .control-arrow, .faqScroll .slick-arrow, .slick-arrow {
+        z-index: 9 !important;
+    }
+    .carousel.carousel-slider .control-arrow , .faqScroll .slick-arrow.slick-prev{
+        left: 0 !important;
+    }
+    
+    .carousel.carousel-slider .control-arrow.control-next {
+        right: 0 !important;
+    }
+    .videoBx iframe{
+        height: 300px;
+    }
+    img.comboRays {
+        max-width: 250px;
     }
 }
