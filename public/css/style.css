@@ -73,7 +73,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
     color: #fff;
 } 
 .homeBanner{
-    background: url(../images/homepage/banner1.png) 0px -35px no-repeat #000;
+    background: url(../images/homepage/header_bg.png) 0px -100px no-repeat #000;
     background-size: cover;
     padding: 100px 0 50px;
     position: relative;
@@ -99,7 +99,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
 .bannerImgFlash {
     position: absolute;
     right: -130px;
-    bottom: -90%;
+    bottom: -100%;
     z-index: 0;
 }
 
@@ -109,7 +109,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
 }
 
 .bannerImgFlash img.bannerRays {
-    max-width: 650px;
+    min-width: 650px;
 }
 
 
@@ -305,7 +305,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
     transition: all 500ms ease;
 }
 .slideImg{
-    background: url(../images/player_bg.svg) 0 0 no-repeat;
+    background: url(../images/player_bg.png) 0 0 no-repeat;
     background-size: 100% 270px;
     background-position: left bottom;
 }
@@ -414,7 +414,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
     position: absolute;
     left: 50%;
     bottom: 30px;
-    max-width: 350px;
+    max-width: 400px;
     transform: translate(-50%);
     opacity: 1;
     z-index: 0;

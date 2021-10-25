@@ -11,7 +11,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="col-sm-6 col-12">
-                        <div className="sectionHeading mb-0 pt-4">
+                        <div className="sectionHeading mb-0 pt-2">
                             <div className="d-block">
                                 <div className="d-block"><img src={process.env.PUBLIC_URL + '/images/strip.png'} alt="" /></div>
                                 <span className="strip mt-4 mb-3">About Colexion</span>

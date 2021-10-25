@@ -83,6 +83,7 @@
     .slideContent {
         width: calc(100% - 40px);
         left: 20px;
+        bottom: -10px;
     }
     
     .slideContent h3 {
@@ -153,7 +154,7 @@
         left: 0px !important;
     }
     .founder-image {
-        width: calc(100% - 30px);
+        width: calc(100% - 30px) !important;
         object-fit: cover;
     }
     
@@ -162,8 +163,19 @@
     }
     
     .member-name-row {
-        left: 10px;
-        top: 260px;
+        left: 10px !important;
+        top: 260px !important;
+    }
+    .aboutUs {
+        padding: 50px 0;
+        background-attachment: inherit;
+    }
+    .bannerImgFlash img.bannerRays {
+        min-width: 300px;
+    }
+    
+    .bannerImgFlash {
+        right: 0;
     }
 }
 @media only screen and (max-width:991px){
@@ -224,6 +236,7 @@
     }
     .bannerImgFlash img.bannerRays {
         max-width: 100%;
+        min-width: 330px;
     }
     
     .bannerImgFlash {
@@ -385,7 +398,8 @@
         height: 300px;
     }
     img.comboRays {
-        max-width: 250px;
+        min-width: 300px;
+        max-width: 300px;
     }
     .bannerContent {
         padding-right: 40px;
@@ -404,5 +418,15 @@
     }
     .carousel.carousel-slider .control-arrow {
         bottom: -50px !important;
+    }
+    .homeVideoSec {
+        padding-bottom: 60px;
+    }
+    
+    .homeVideoSec .carousel.carousel-slider .control-arrow {
+        bottom: -70px !important;
+    }
+    .team-images .row.mt-5.justify-content-around {
+        margin-top: 0 !important;
     }
 }
