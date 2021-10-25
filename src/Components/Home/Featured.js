@@ -59,9 +59,9 @@ const Featured = () => {
                                         <img src={`https://appi.colexion.io/${player.pflag}`} alt="" />
                                     </div>
                                     <div className="slideContent">
-                                        <Link to="details/11">
-                                        <h3>{player.name}</h3>
-                                        <p>The Champion</p>
+                                        <Link to={`details/${player._id}`}>
+                                            <h3>{player.name}</h3>
+                                            <p>The Champion</p>
                                         </Link>
                                     </div>
                                 </div>
