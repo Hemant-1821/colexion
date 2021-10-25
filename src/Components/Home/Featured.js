@@ -1,11 +1,21 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import axios from 'axios';
 import { Link } from 'react-router-dom';
 import Slider from "react-slick";
 
 const Featured = () => {
+    const [playerList, setPlayerList] = useState([]);
+    useEffect(()=>{
+        getApiData()
+    },[])
+    const getApiData = async () => {
+        const apiData = await axios.get('https://appi.colexion.io/api/Player')
+        console.log(apiData.data)
+        setPlayerList(apiData.data)
+    }
     var settings = {
         dots: false,
-        infinite: true,
+        infinite: false,
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -21,7 +31,8 @@ const Featured = () => {
               breakpoint: 600,
               settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                infinite: true
               }
             }
 
@@ -41,7 +52,22 @@ const Featured = () => {
                         </div>
                     </div>
                     <Slider {...settings}>
-                        <div className="slideWrp">
+                        {
+                            playerList.map(player =>(
+                                <div className="slideWrp" key={player._id}>
+                                    <div className="slideImg">
+                                        <img src={`https://appi.colexion.io/${player.pflag}`} alt="" />
+                                    </div>
+                                    <div className="slideContent">
+                                        <Link to="details/11">
+                                        <h3>{player.name}</h3>
+                                        <p>The Champion</p>
+                                        </Link>
+                                    </div>
+                                </div>
+                            ))
+                        }
+                        {/* <div className="slideWrp">
                             <div className="slideImg">
                                 <img src={process.env.PUBLIC_URL + '/images/bravo.png'} alt="" />
                             </div>
@@ -78,7 +104,7 @@ const Featured = () => {
                                 <h3>Dwayne-Bravo</h3>
                                 <p>The Champion</p>
                             </div>
-                        </div>
+                        </div> */}
                     </Slider>
                 </div>
             </div>

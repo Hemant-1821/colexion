@@ -15,7 +15,7 @@ const About = () => {
                             <div className="d-block">
                                 <div className="d-block"><img src={process.env.PUBLIC_URL + '/images/strip.png'} alt="" /></div>
                                 <span className="strip mt-4 mb-3">About Colexion</span>
-                                <h2>About Colexion</h2>
+                                <h2>What's Colexion</h2>
                                 <h3>Colexion aims to expand relationships between artists and fans by providing a more valuable platform for artists' digital artworks on Polygon Network. The platform combines crypto and culture in a way that fosters mutual support between creators, collectors, and celebrities. Own the unique memorabilia and moments of cricketers and celebrities at Colexion.</h3>
                             </div>
                         </div>

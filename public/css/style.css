@@ -64,7 +64,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
 }
 .customBtn {
     background: linear-gradient(to right, #21f5fc 0%, #b241f2 99%);
-    padding: 10px 25px !important;
+    padding: 10px 20px !important;
     font-weight: 600 !important;
     color: #fff;
     display: inline-block;
@@ -73,6 +73,9 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
 .customBtn:hover{
     color: #fff;
 } 
+a.nav-link.customBtn {
+    margin-left: 20px;
+}
 .homeBanner{
     background: url(../images/homepage/header_bg.png) 0px -100px no-repeat #000;
     background-size: cover;
@@ -138,6 +141,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
     color: #fff;
     font-size: 25px;
     opacity: 0.8;
+    text-transform: uppercase;
 }
 
 .counterNum {
@@ -314,6 +318,8 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
     max-width: 245px;
     display: block;
     margin: 0 auto;
+    height: 300px;
+    object-fit: contain;
 }
 .slideWrp {
     position: relative;
@@ -884,6 +890,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
     max-width: 130px;
     opacity: 0.7;
     transition: all 500ms ease;
+    object-fit: contain;
 }
 
 .press img:hover {
@@ -893,4 +900,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
 .footerTop > img{
     max-width: 100%;
     width: 300px;
+}
+.speciality .customBtn {
+    padding: 12px 30px !important;
 }
