@@ -46,45 +46,45 @@ const HomeBanner = () => {
                 <div className="bannerSocial">
                     <ul className="list-inline">
                         <li>
-                            <a href="/">
+                            <a href="https://www.facebook.com/ColexionNFTs" target="_blank" rel="noreferrer">
                                 <img src={process.env.PUBLIC_URL + '/images/homepage/social/metro-facebook.svg'} alt="" />
                             </a>
                         </li>
                         <li>
-                            <a href="/">
+                            <a href="https://www.instagram.com/colexion.nft/" target="_blank" rel="noreferrer">
                                 <img src={process.env.PUBLIC_URL + '/images/homepage/social/awesome-instagram.svg'} alt="" />
                             </a>
                         </li>
                         <li>
-                            <a href="/">
+                            <a href="https://twitter.com/colexionNFT" target="_blank" rel="noreferrer">
                                 <img src={process.env.PUBLIC_URL + '/images/homepage/social/awesome-twitter.svg'} alt="" />
                             </a>
                         </li>
                         <li>
-                            <a href="/">
+                            <a href="https://in.pinterest.com/ColexionNFT/_created/" target="_blank" rel="noreferrer">
                                 <img src={process.env.PUBLIC_URL + '/images/homepage/social/awesome-pinterest.svg'} alt="" />
                             </a>
                         </li>
                         <li>
-                            <a href="/">
+                            <a href="https://www.youtube.com/channel/UCP-tCpRfb8-5n3beW5wXwkg/videos" target="_blank" rel="noreferrer">
                                 <img src={process.env.PUBLIC_URL + '/images/homepage/social/awesome-youtube.svg'} alt="" />
                             </a>
                         </li>
                         <li>
-                            <a href="/">
+                            <a href="https://www.linkedin.com/company/colexion/" target="_blank" rel="noreferrer">
                                 <img src={process.env.PUBLIC_URL + '/images/homepage/social/awesome-linkedin.svg'} alt="" />
                             </a>
                         </li>
                         <li>
-                            <a href="/">
+                            <a href="https://discord.com/invite/HzBtD3rNNG" target="_blank" rel="noreferrer">
                                 <img src={process.env.PUBLIC_URL + '/images/homepage/social/simple-discord.svg'} alt="" />
                             </a>
                         </li>
-                        {/* <li>
-                            <a href="/">
+                        <li>
+                            <a href="https://t.me/ColexionOfficial" target="_blank" rel="noreferrer">
                                 <img src={process.env.PUBLIC_URL + '/images/homepage/social/telegram.png'} alt="" />
                             </a>
-                        </li> */}
+                        </li>
                     </ul>
                 </div>
             </section>

@@ -21,6 +21,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
     left: 0;
     top: 0;
     z-index: 99;
+    padding: 14px 16px;
 }
 
 #myNav ul li a {
@@ -476,11 +477,12 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
 }
 
 .partnersList img {
-    max-width: 160px;
+    max-width: 180px;
     opacity: 0.7;
     margin: 7px 15px;
     height: auto;
     max-height: 75px;
+    min-height: 80px;
     object-fit: contain;
 }
 
@@ -497,7 +499,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
 }
 
 .shopCategoryBx {
-    background: url(../images/homepage/shop_by_category.svg) 0 0 no-repeat;
+    background: url(../images/homepage/shop_by_category.png) 0 0 no-repeat;
     min-width: 200px;
     height: 205px;
     background-size: cover;
@@ -888,6 +890,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
     opacity: 1;
     transition: all 500ms ease;
 }
-.footerTop img{
+.footerTop > img{
     max-width: 100%;
+    width: 300px;
 }
