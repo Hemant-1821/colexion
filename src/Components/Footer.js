@@ -62,6 +62,11 @@ const Footer = () => {
                                     <img src={process.env.PUBLIC_URL + '/images/homepage/social/simple-discord.svg'} alt="" />
                                 </a>
                             </li>
+                            {/* <li>
+                                <a href="/">
+                                    <img src={process.env.PUBLIC_URL + '/images/homepage/social/telegram.png'} alt="" />
+                                </a>
+                            </li> */}
                         </ul>
                     </div>
                     <div className="footerBottom">

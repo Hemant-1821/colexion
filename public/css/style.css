@@ -48,7 +48,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
     letter-spacing: 0px;
     text-align: center;
     left: 12px;
-    top: -15px;
+    top: -12px;
 }
 
 #myNav ul {
@@ -86,15 +86,15 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
 .bannerContent h1 {
     font-family: "FTYOverKillMachinedNC";
     color: #fff;
-    font-size: 70px;
+    font-size: 60px;
     margin: 20px 0 0;
 }
 
 .bannerContent h2 {
     color: #fff;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 400;
-    margin: 10px 0 30px;
+    margin: 30px 0 50px;
 }
 .bannerImgFlash {
     position: absolute;
@@ -140,7 +140,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
 }
 
 .counterNum {
-    margin-top: 40px;
+    margin-top: 80px;
 }
 .bannerSocial {
     position: absolute;
@@ -168,7 +168,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
 .bannerImg {
     position: absolute;
     top: 77px;
-    right: 215px;
+    right: 195px;
     z-index: 0;
 }
 
@@ -188,7 +188,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
     padding: 25px 50px;
     border: solid 3px #4f52ff;
     background-color: #0d0931;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .listInline {
@@ -359,10 +359,12 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
     padding: 15px 15px 0;
 }
 .videoFrame1{
-    background: url(../images/homepage/videoframe1.svg) 0 0 no-repeat;
+    /* background: url(../images/homepage/videoframe1.svg) 0 0 no-repeat; */
+    background: url(../images/homepage/videoframe.svg) 0 0 no-repeat;
     background-size: cover;
     padding: 15px 15px 0;
 }
+
 .aboutus-videoFrame{
     background: url(../images/homepage/videoframe.svg) 0 0 no-repeat;
     background-size: cover;
@@ -386,6 +388,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
 }
 .bx {
     margin-bottom: 50px;
+    margin-top: 30px;
 }
 .bx img {
     max-width: 100px;
@@ -473,9 +476,12 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
 }
 
 .partnersList img {
-    max-width: 150px;
-    max-height: 130px;
+    max-width: 160px;
+    opacity: 0.7;
     margin: 7px 15px;
+    height: auto;
+    max-height: 75px;
+    object-fit: contain;
 }
 
 .partnersBx {
@@ -692,7 +698,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
 }
 
 .playerStats {
-    margin: 30px 0 0;
+    margin: 10px 0 0;
     background: #36298891;
     padding: 20px 20px 10px;
 }
@@ -731,7 +737,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0;padding: 86px 0 0;}
 }
 .productDetailsContent {
     padding-top: 40px;
-    margin-left: 50px;
+    margin-left: 80px;
 }
 
 .productDetailsContent h2 {

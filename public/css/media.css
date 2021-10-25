@@ -166,7 +166,7 @@
     }
     
     .customSec {
-        padding: 35px 0;
+        padding: 65px 0;
     }
     .productDetailsCard {
         width: 100%;
@@ -201,6 +201,10 @@
     }
     .carousel.carousel-slider .control-arrow, .faqScroll .slick-arrow, .slick-arrow {
         z-index: 9 !important;
+        top: auto !important;
+        bottom: -60px;
+        width: 35px !important;
+        height: 35px !important;
     }
     .carousel.carousel-slider .control-arrow , .faqScroll .slick-arrow.slick-prev{
         left: 0 !important;
@@ -214,5 +218,20 @@
     }
     img.comboRays {
         max-width: 250px;
+    }
+    .bannerContent {
+        padding-right: 40px;
+    }
+    .counterNum ul li{
+        margin-right: 20px;
+    }
+    .slideContent {
+        width: calc(100% - 20px);
+        left: 10px;
+        background-size:  100%;
+        padding-top: 20px;
+    }
+    .videoFrame1 iframe{
+        height: 300px;
     }
 }

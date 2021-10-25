@@ -7,7 +7,7 @@ export default function Teams() {
                 <div className="sectionHeading justify-content-center text-center">
                     <div className="d-block">
                         <h2>FOUNDING TEAM</h2>
-                        <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h3>
+                        {/* <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h3> */}
                     </div>
                 </div>    
                 <div className="team-images">
