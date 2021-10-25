@@ -8,7 +8,7 @@ const Combo = (props) => {
         console.log(props.theme);
         setThemeColor(props.theme);
     }, [props.theme]);
-
+    console.log(themeColor)
     var settings = {
         className: "center",
         centerMode: true,
