@@ -1,11 +1,24 @@
 import React,{useEffect} from 'react'
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import Combo from './Home/Combo';
+import axios from 'axios';
 
 const PackDetails = () => {
+    const [data, setData] = React.useState([]);
+    const { id, type } = useParams();
+    console.log(id);
 
     useEffect(() => {
-        window.scrollTo(0, 0)
+        window.scrollTo(0, 0);
+        if(type === 'Player'){
+            axios.get('https://appi.colexion.io/api/Player').then(resp => {
+                setData(resp.data.find((player) => player._id === id));
+            });
+        } else {
+            axios.get('https://appi.colexion.io/api/Enter').then(resp => {
+                setData(resp.data.find((Enter) => Enter._id === id));
+            });
+        }
       }, [])
     return (
         <React.Fragment>
@@ -18,31 +31,31 @@ const PackDetails = () => {
                             </div>
                             <div className="productDetailsCardImg">
                                 <div className="countryFlag">
-                                    <img src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2020/06/wicb-1591186696.jpg" alt="" />
+                                    <img src={"https://appi.colexion.io/"+data.cflag} alt="" />
                                 </div>
                                 <div className="playerImg">
-                                    <img src={process.env.PUBLIC_URL + '/images/bravo.png'} alt="" />
+                                    <img src={"https://appi.colexion.io/"+data.pflag} alt="" />
                                 </div>
                                 <div className="playerName">
-                                    <span>Dwayne-Bravo </span>
-                                    <span><i>AGE</i> (26)</span>
+                                    <span>{data.name}</span>
+                                    <span><i>AGE</i> ({data.age})</span>
                                 </div>
                             </div>
                             <div className="playerStats">
                                 <h5>Stats</h5>
                                 <ul className="list-inline playerStatsList">
                                     <li>ONE DAY</li>
-                                    <li><span>67,987</span>Run</li>
-                                    <li><span>67.98</span>Run Rate</li>
-                                    <li><span>456</span>Wickets</li>
-                                    <li><span>678</span>Catch</li>
+                                    <li><span>{data.orun}</span>Run</li>
+                                    <li><span>{data.orate}</span>Run Rate</li>
+                                    <li><span>{data.owicket}</span>Wickets</li>
+                                    <li><span>{data.ocatch}</span>Catch</li>
                                 </ul>
                                 <ul className="list-inline playerStatsList">
                                     <li>Test Match</li>
-                                    <li><span>67,987</span>Run</li>
-                                    <li><span>67.98</span>Run Rate</li>
-                                    <li><span>456</span>Wickets</li>
-                                    <li><span>678</span>Catch</li>
+                                    <li><span>{data.trun}</span>Run</li>
+                                    <li><span>{data.trate}</span>Run Rate</li>
+                                    <li><span>{data.twicket}</span>Wickets</li>
+                                    <li><span>{data.tcatch}</span>Catch</li>
                                 </ul>
                             </div>
                         </div>

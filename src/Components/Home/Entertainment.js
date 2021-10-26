@@ -48,7 +48,7 @@ const Entertainment = () => {
                             <h3>Own iconic and rare moments of your favourite celebrities.</h3>
                         </div>
                         <div className="headingBtn">
-                            <Link to="/" className="customBtn2">View All <i className="fas fa-arrow-right ml-2"></i></Link>
+                            <Link to="/viewall" className="customBtn2">View All <i className="fas fa-arrow-right ml-2"></i></Link>
                         </div>
                     </div>
                     <Slider {...settings}>

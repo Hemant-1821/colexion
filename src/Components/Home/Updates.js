@@ -1,6 +1,15 @@
-import React from 'react'
+import React from 'react';
+import axios from 'axios';
 
 const Updates = () => {
+
+    const [data, setData] = React.useState([]);
+
+    React.useEffect(async() => {
+        axios.get('https://appi.colexion.io/api/Latest').then(resp => {
+            setData(resp.data);
+        })
+    }, [])
 
     return (
         <React.Fragment>
@@ -10,11 +19,16 @@ const Updates = () => {
                     <ul className="listInline">
                         <li>
                             <h4>LATEST UPDATES</h4>
-                        </li>
-                        <li className="d-flex">
-                            <img src={process.env.PUBLIC_URL + '/images/homepage/mfn-logo.png'} alt="" />
-                            <h3>On 24th September 2021, Colexion has officially launched  it’s ‘Exclusive Jersey’ at Matrix Fight Night Club in the Palazzo Versace Hotel, Dubai. </h3>
-                        </li>
+                        </li>{
+                            data.map((update) => {
+                                return(
+                                    <li className="d-flex">
+                                        <img className="img-fluid" height="100" width="100" src={"https://appi.colexion.io/"+update.img} alt="" />
+                                        <h3>{update.text}</h3>
+                                    </li>
+                                )
+                            })
+                        }
                     </ul>
                 </div>
             </div>

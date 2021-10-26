@@ -11,6 +11,7 @@ import PackDetails from "./Components/PackDetails";
 import Faq from './Components/FAQ/faq';
 import Contactus from "./Components/Contactus/Contactus";
 import Aboutus from "./Components/Aboutus/Aboutus";
+import ViewAll from './Components/ViewAll/ViewAll';
 
 
 const App = () => {
@@ -38,10 +39,11 @@ useEffect(() => {
           <Route path="/" exact><Home theme={switcher}/></Route>
           <Route path="/blog" exact component={Blog} />
           <Route path="/blog-detail" exact component={BlogDetail} />
-          <Route path="/details/:id" exact component={PackDetails} />
+          <Route path="/details/:id/:type" exact component={PackDetails} />
           <Route path="/faq" exact component={Faq} />
           <Route path="/contactus" exact component={Contactus} />
           <Route path="/aboutus" exact component={Aboutus} />
+          <Route path="/viewall" exact component={ViewAll} />
         </Switch>
         <Footer />
       </div>

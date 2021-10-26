@@ -48,7 +48,7 @@ const Featured = () => {
                             <h3>Collect exclusive licensed NFTs of your favourite cricket stars.</h3>
                         </div>
                         <div className="headingBtn">
-                            <Link to="/" className="customBtn2">View All <i className="fas fa-arrow-right ml-2"></i></Link>
+                            <Link to="/viewall" className="customBtn2">View All <i className="fas fa-arrow-right ml-2"></i></Link>
                         </div>
                     </div>
                     <Slider {...settings}>
@@ -59,7 +59,7 @@ const Featured = () => {
                                         <img src={`https://appi.colexion.io/${player.pflag}`} alt="" />
                                     </div>
                                     <div className="slideContent">
-                                        <Link to={`details/${player._id}`}>
+                                        <Link to={`details/${player._id}/Player`}>
                                             <h3>{player.name}</h3>
                                             <p>The Champion</p>
                                         </Link>
