@@ -21,7 +21,7 @@ const Video = () => {
                             return(
                                 <div className="videoBx" key={video._id}>
                                     <video width="100%" height="600" controls>
-                                        <source src={"https://appi.colexion.io/"+video.video} type="video/mp4" />
+                                        <source src={"https://appi.colexion.io/"+video.video} alt="" type="video/mp4" />
                                     </video>
                                 </div>
                             )
