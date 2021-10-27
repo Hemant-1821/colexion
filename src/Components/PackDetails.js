@@ -30,34 +30,36 @@ const PackDetails = () => {
                                 <Link to="/"><i class="fas fa-arrow-left"></i> Back</Link>
                             </div>
                             <div className="productDetailsCardImg">
-                                <div className="countryFlag">
+                                {type === 'Player' && <div className="countryFlag">
                                     <img src={"https://appi.colexion.io/"+data.cflag} alt="" />
-                                </div>
+                                </div>}
                                 <div className="playerImg">
-                                    <img src={"https://appi.colexion.io/"+data.pflag} alt="" />
+                                    <img src={"https://appi.colexion.io/"+(type === 'Player' ? data.pflag : data.img)} alt="" />
                                 </div>
                                 <div className="playerName">
                                     <span>{data.name}</span>
                                     <span><i>AGE</i> ({data.age})</span>
                                 </div>
                             </div>
-                            <div className="playerStats">
-                                <h5>Stats</h5>
-                                <ul className="list-inline playerStatsList">
-                                    <li>ONE DAY</li>
-                                    <li><span>{data.orun}</span>Run</li>
-                                    <li><span>{data.orate}</span>Run Rate</li>
-                                    <li><span>{data.owicket}</span>Wickets</li>
-                                    <li><span>{data.ocatch}</span>Catch</li>
-                                </ul>
-                                <ul className="list-inline playerStatsList">
-                                    <li>Test Match</li>
-                                    <li><span>{data.trun}</span>Run</li>
-                                    <li><span>{data.trate}</span>Run Rate</li>
-                                    <li><span>{data.twicket}</span>Wickets</li>
-                                    <li><span>{data.tcatch}</span>Catch</li>
-                                </ul>
-                            </div>
+                            {type === 'Player' &&
+                                <div className="playerStats">
+                                    <h5>Stats</h5>
+                                    <ul className="list-inline playerStatsList">
+                                        <li>ONE DAY</li>
+                                        <li><span>{data.orun}</span>Run</li>
+                                        <li><span>{data.orate}</span>Run Rate</li>
+                                        <li><span>{data.owicket}</span>Wickets</li>
+                                        <li><span>{data.ocatch}</span>Catch</li>
+                                    </ul>
+                                    <ul className="list-inline playerStatsList">
+                                        <li>Test Match</li>
+                                        <li><span>{data.trun}</span>Run</li>
+                                        <li><span>{data.trate}</span>Run Rate</li>
+                                        <li><span>{data.twicket}</span>Wickets</li>
+                                        <li><span>{data.tcatch}</span>Catch</li>
+                                    </ul>
+                                </div>
+                            }
                         </div>
                         <div className="productDetailsContent">
                             <h2>A fusion of fun and adventure</h2>

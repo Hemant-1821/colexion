@@ -59,7 +59,7 @@ const Entertainment = () => {
                                         <img src={`https://appi.colexion.io/${enter.img}`} alt="" />
                                     </div>
                                     <div className="slideContent">
-                                        <Link to={`details/${enter._id}`}>
+                                        <Link to={`details/${enter._id}/Enter`}>
                                         <h3>{enter.name}</h3>
                                         <p>The Champion</p>
                                         </Link>
