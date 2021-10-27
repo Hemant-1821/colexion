@@ -58,6 +58,9 @@ const PackDetails = () => {
                                         <li><span>{data.twicket}</span>Wickets</li>
                                         <li><span>{data.tcatch}</span>Catch</li>
                                     </ul>
+                                    {/* <div>
+                                        <div><div>ONE DAY</div><div>TEST MATCH</div></div>
+                                    </div> */}
                                 </div>
                             }
                         </div>

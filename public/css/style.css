@@ -725,13 +725,14 @@ a.nav-link.customBtn {
 }
 
 .playerStatsList li:first-child {
-    max-width: 64px;
+    width: 70px;
     font-size: 15px;
     text-transform: uppercase;
     text-align: left;
 }
 
 .playerStatsList li {
+    width: 60px;
     margin: 0 15px;
     text-align: center;
 }
